@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="LEADER_JASPER_KITTY" Kind="KIND_LEADER" />
+	</Types>
+
+	<Leaders>
+		<Row>
+			<LeaderType>LEADER_JASPER_KITTY</LeaderType>
+			<Name>LOC_LEADER_JASPER_KITTY_NAME</Name>
+			<InheritFrom>LEADER_DEFAULT</InheritFrom>
+		</Row>
+	</Leaders>
+</GameData>

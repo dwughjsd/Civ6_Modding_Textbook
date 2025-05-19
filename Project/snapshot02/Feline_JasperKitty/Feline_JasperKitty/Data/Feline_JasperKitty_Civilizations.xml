@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="CIVILIZATION_FELINE" Kind="KIND_CIVILIZATION" />
+	</Types>
+
+	<Civilizations>
+		<Row>
+			<CivilizationType>CIVILIZATION_FELINE</CivilizationType>
+			<Name>LOC_CIVILIZATION_FELINE_NAME</Name>
+			<Description>LOC_CIVILIZATION_FELINE_DESCRIPTION</Description>
+			<Adjective>LOC_CIVILIZATION_FELINE_ADJECTIVE</Adjective>
+			<StartingCivilizationLevelType>CIVILIZATION_LEVEL_FULL_CIV</StartingCivilizationLevelType>
+		</Row>
+	</Civilizations>
+
+	<CivilizationLeaders>
+		<Row CivilizationType="CIVILIZATION_FELINE" LeaderType="LEADER_JASPER_KITTY" CapitalName="LOC_CITY_NAME_PAWTIMORE" />
+	</CivilizationLeaders>
+</GameData>

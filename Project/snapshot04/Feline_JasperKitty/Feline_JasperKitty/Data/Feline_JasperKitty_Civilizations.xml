@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="CIVILIZATION_FELINE" Kind="KIND_CIVILIZATION" />
+		<Row Type="TRAIT_CIVILIZATION_CAT_LIKE_REFLEXES" Kind="KIND_TRAIT" />
+		<Row Type="TRAIT_CIVILIZATION_BUILDING_LITTER_BOX" Kind="KIND_TRAIT" />
+	</Types>
+
+	<Civilizations>
+		<Row>
+			<CivilizationType>CIVILIZATION_FELINE</CivilizationType>
+			<Name>LOC_CIVILIZATION_FELINE_NAME</Name>
+			<Description>LOC_CIVILIZATION_FELINE_DESCRIPTION</Description>
+			<Adjective>LOC_CIVILIZATION_FELINE_ADJECTIVE</Adjective>
+			<StartingCivilizationLevelType>CIVILIZATION_LEVEL_FULL_CIV</StartingCivilizationLevelType>
+		</Row>
+	</Civilizations>
+
+	<CivilizationLeaders>
+		<Row CivilizationType="CIVILIZATION_FELINE" LeaderType="LEADER_JASPER_KITTY" CapitalName="LOC_CITY_NAME_PAWTIMORE" />
+	</CivilizationLeaders>
+
+	<Traits>
+		<Row TraitType="TRAIT_CIVILIZATION_CAT_LIKE_REFLEXES" Name="LOC_TRAIT_CIVILIZATION_FELINE_NAME" Description="LOC_TRAIT_CIVILIZATION_FELINE_DESCRIPTION" />
+		<Row TraitType="TRAIT_CIVILIZATION_BUILDING_LITTER_BOX" />
+	</Traits>
+
+	<CivilizationTraits>
+		<Row CivilizationType="CIVILIZATION_FELINE" TraitType="TRAIT_CIVILIZATION_CAT_LIKE_REFLEXES" />
+		<Row CivilizationType="CIVILIZATION_FELINE" TraitType="TRAIT_CIVILIZATION_BUILDING_LITTER_BOX" />
+	</CivilizationTraits>
+
+	<TraitModifiers>
+		<Row TraitType="TRAIT_CIVILIZATION_CAT_LIKE_REFLEXES" ModifierId="TRAIT_CAPITAL_DOUBLE_FOOD_YIELD" />
+		<Row TraitType="TRAIT_CIVILIZATION_CAT_LIKE_REFLEXES" ModifierId="TRAIT_CAPITAL_DOUBLE_NONFOOD_YIELD" />
+	</TraitModifiers>
+
+	<Modifiers>
+		<Row>
+			<ModifierId>TRAIT_CAPITAL_DOUBLE_FOOD_YIELD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>FELINE_CAPITAL_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CAPITAL_DOUBLE_NONFOOD_YIELD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>FELINE_CAPITAL_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>TRAIT_CAPITAL_DOUBLE_FOOD_YIELD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CAPITAL_DOUBLE_FOOD_YIELD</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CAPITAL_DOUBLE_NONFOOD_YIELD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD,YIELD_SCIENCE,YIELD_CULTURE,YIELD_FAITH,YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CAPITAL_DOUBLE_NONFOOD_YIELD</ModifierId>
+			<Name>Amount</Name>
+			<Value>100,100,100,100,100</Value>
+		</Row>
+	</ModifierArguments>
+
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>FELINE_CAPITAL_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>FELINE_CAPITAL_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_CITY_HAS_PALACE_FELINE</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+
+	<Requirements>
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_PALACE_FELINE</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType>
+		</Row>
+	</Requirements>
+
+	<RequirementArguments>
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_PALACE_FELINE</RequirementId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_PALACE</Value>
+		</Row>
+	</RequirementArguments>
+
+</GameData>
