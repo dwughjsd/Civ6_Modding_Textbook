@@ -1,4 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
+	<Types>
+		<Row Type="UNIT_FELINE_KITTEN" Kind="KIND_UNIT"/>
+		<!--[4292313.982] [Gameplay] ERROR: Invalid Reference on TypeTags.Type - "ABILITY_COMBAT_BONUS_JASPER_KITTY" does not exist in Types-->
+		<!--Beware of inconsistencies and use replace in files-->
+		<Row Type="ABILITY_KITTEN_IGNORE_FOREST_MOVEMENT_PENALTY" Kind="KIND_ABILITY"/>
+	</Types>
+	<Tags>
+		<Row Tag="CLASS_FELINE_KITTEN" Vocabulary="ABILITY_CLASS"/>
+	</Tags>
+	<UnitAiInfos>
+		<Row UnitType="UNIT_FELINE_KITTEN" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_FELINE_KITTEN" AiType="UNITTYPE_LAND_COMBAT"/>
+	</UnitAiInfos>
+	<TypeTags>
+		<Row Type="UNIT_FELINE_KITTEN" Tag="CLASS_RECON"/>
+		<Row Type="UNIT_FELINE_KITTEN" Tag="CLASS_REVEAL_STEALTH"/>
+		<Row Type="UNIT_FELINE_KITTEN" Tag="CLASS_FELINE_KITTEN"/>
+		<Row Type="ABILITY_KITTEN_IGNORE_FOREST_MOVEMENT_PENALTY" Tag="CLASS_FELINE_KITTEN"/>
+	</TypeTags>
 
+	<UnitAbilities>
+		<Row UnitAbilityType="ABILITY_KITTEN_IGNORE_FOREST_MOVEMENT_PENALTY" Name="LOC_ABILITY_KITTEN_IGNORE_FOREST_MOVEMENT_PENALTY_NAME" Description="LOC_ABILITY_KITTEN_IGNORE_FOREST_MOVEMENT_PENALTY_DESCRIPTION"/>
+	</UnitAbilities>
+	
+	<UnitReplaces>
+		<Row CivUniqueUnitType="UNIT_FELINE_KITTEN" ReplacesUnitType="UNIT_SCOUT"/>
+	</UnitReplaces>
+
+	<Units>
+		<Row UnitType="UNIT_FELINE_KITTEN" Cost="30" BaseMoves="4" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="10" FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_RECON" AdvisorType="ADVISOR_GENERIC" Name="LOC_UNIT_FELINE_KITTEN_NAME" Description="LOC_UNIT_FELINE_KITTEN_DESCRIPTION" PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_EXPLORER" TraitType="TRAIT_CIVILIZATION_UNIT_FELINE_KITTEN"/>
+	</Units>
+
+	<UnitUpgrades>
+		<!--it needs to be upgraded to a Ranger if for vanilla-->
+		<Row Unit="UNIT_FELINE_KITTEN" UpgradeUnit="UNIT_RANGER"/>
+	</UnitUpgrades>
+
+	<UnitAbilityModifiers>
+		<Row>
+			<UnitAbilityType>ABILITY_KITTEN_IGNORE_FOREST_MOVEMENT_PENALTY</UnitAbilityType>
+			<ModifierId>RANGER_IGNORE_FOREST_MOVEMENT_PENALTY</ModifierId>
+		</Row>
+	</UnitAbilityModifiers>
 </GameData>

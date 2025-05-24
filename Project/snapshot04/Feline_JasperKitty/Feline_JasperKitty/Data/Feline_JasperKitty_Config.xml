@@ -23,6 +23,18 @@
 			<Domain>Players:Expansion2_Players</Domain>
 			<CivilizationType>CIVILIZATION_FELINE</CivilizationType>
 			<LeaderType>LEADER_JASPER_KITTY</LeaderType>
+			<Type>UNIT_FELINE_KITTEN</Type>
+			<Name>LOC_UNIT_FELINE_KITTEN_NAME</Name>
+			<Description>LOC_UNIT_FELINE_KITTEN_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_FELINE_KITTEN</Icon>
+			<SortIndex>8</SortIndex>
+		</Row>
+	</PlayerItems>
+	<PlayerItems>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_FELINE</CivilizationType>
+			<LeaderType>LEADER_JASPER_KITTY</LeaderType>
 			<Type>BUILDING_LITTER_BOX</Type>
 			<Name>LOC_BUILDING_LITTER_BOX_NAME</Name>
 			<Description>LOC_BUILDING_LITTER_BOX_DESCRIPTION</Description>
