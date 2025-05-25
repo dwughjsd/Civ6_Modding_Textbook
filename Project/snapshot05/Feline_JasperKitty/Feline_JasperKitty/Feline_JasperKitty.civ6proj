@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>My Custom Mod</Name>
+    <Guid>88c1f270-7aed-4ed8-a844-0274426e8b0c</Guid>
+    <ProjectGuid>ff067c02-5923-4f11-9fd7-bbc538a809f8</ProjectGuid>
+    <ModVersion>1</ModVersion>
+    <Teaser>This is a brief description of the mod.</Teaser>
+    <Description>This is a brief description of the mod.</Description>
+    <Authors>Admin</Authors>
+    <SpecialThanks>
+    </SpecialThanks>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <CompatibleVersions>2.0</CompatibleVersions>
+    <AssociationData><![CDATA[<Associations>
+  <Dependency type="Dlc" title="Expansion: Gathering Storm" id="4873eb62-8ccc-4574-b784-dda455e74e68" />
+</Associations>]]></AssociationData>
+    <AssemblyName>Feline_JasperKitty</AssemblyName>
+    <RootNamespace>Feline_JasperKitty</RootNamespace>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Feline_Gameplay"><Criteria>FelineJasperKitty</Criteria><File>Data/Feline_JasperKitty_Civilizations.xml</File><File>Data/Feline_JasperKitty_Leaders.xml</File><File>Data/Feline_JasperKitty_Buildings.xml</File><File>Data/Feline_JasperKitty_Units.xml</File></UpdateDatabase><UpdateArt id="Feline_Art"><Criteria>FelineJasperKitty</Criteria><File>(Mod Art Dependency File)</File></UpdateArt><UpdateDatabase id="Feline_Expansion2"><Criteria>FelineJasperKitty_Expansion2</Criteria><File>Data/Feline_JasperKitty_Expansion2.xml</File></UpdateDatabase></InGameActions>]]></InGameActionData>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="Feline_Config"><File>Data/Feline_JasperKitty_Config.xml</File></UpdateDatabase><UpdateArt id="Feline_ConfigArt"><File>(Mod Art Dependency File)</File></UpdateArt></FrontEndActions>]]></FrontEndActionData>
+    <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="FelineJasperKitty"><LeaderPlayable>Players:StandardPlayers::LEADER_JASPER_KITTY,StandardPlayers::LEADER_JASPER_KITTY,Players:Expansion1_Players::LEADER_JASPER_KITTY,Players:Expansion2_Players::LEADER_JASPER_KITTY</LeaderPlayable><RuleSetInUse>RULESET_STANDARD,RULESET_EXPANSION_1,RULESET_EXPANSION_2</RuleSetInUse></Criteria><Criteria id="FelineJasperKitty_Expansion2"><LeaderPlayable>Players:Expansion2_Players::LEADER_JASPER_KITTY</LeaderPlayable><RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse></Criteria></ActionCriteria>]]></ActionCriteriaData>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="Feline_JasperKitty.Art.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Data" />
+    <Folder Include="Text" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data\Feline_JasperKitty_Buildings.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\Feline_JasperKitty_Civilizations.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\Feline_JasperKitty_Config.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\Feline_JasperKitty_Expansion2.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\Feline_JasperKitty_Leaders.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\Feline_JasperKitty_Units.xml">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+</Project>

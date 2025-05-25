@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Players>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_FELINE</CivilizationType>
+			<LeaderType>LEADER_JASPER_KITTY</LeaderType>
+			<CivilizationName>LOC_CIVILIZATION_FELINE_NAME</CivilizationName>
+			<CivilizationIcon>ICON_CIVILIZATION_FELINE</CivilizationIcon>
+			<LeaderName>LOC_LEADER_JASPER_KITTY_NAME</LeaderName>
+			<LeaderIcon>ICON_LEADER_JASPER_KITTY</LeaderIcon>
+			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_FELINE_NAME</CivilizationAbilityName>
+			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_FELINE_DESCRIPTION</CivilizationAbilityDescription>
+			<CivilizationAbilityIcon>ICON_CIVILIZATION_FELINE</CivilizationAbilityIcon>
+			<LeaderAbilityName>LOC_TRAIT_LEADER_JASPER_KITTY_NAME</LeaderAbilityName>
+			<LeaderAbilityDescription>LOC_TRAIT_LEADER_JASPER_KITTY_DESCRIPTION</LeaderAbilityDescription>
+			<LeaderAbilityIcon>ICON_LEADER_JASPER_KITTY</LeaderAbilityIcon>
+			<Portrait>LEADER_JASPER_KITTY_NEUTRAL</Portrait>
+		</Row>
+	</Players>
+	<PlayerItems>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_FELINE</CivilizationType>
+			<LeaderType>LEADER_JASPER_KITTY</LeaderType>
+			<Type>UNIT_FELINE_KITTEN</Type>
+			<Name>LOC_UNIT_FELINE_KITTEN_NAME</Name>
+			<Description>LOC_UNIT_FELINE_KITTEN_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_FELINE_KITTEN</Icon>
+			<SortIndex>8</SortIndex>
+		</Row>
+	</PlayerItems>
+	<PlayerItems>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_FELINE</CivilizationType>
+			<LeaderType>LEADER_JASPER_KITTY</LeaderType>
+			<Type>BUILDING_LITTER_BOX</Type>
+			<Name>LOC_BUILDING_LITTER_BOX_NAME</Name>
+			<Description>LOC_BUILDING_LITTER_BOX_DESCRIPTION</Description>
+			<Icon>ICON_BUILDING_LITTER_BOX</Icon>
+			<SortIndex>10</SortIndex>
+		</Row>
+	</PlayerItems>
+</GameData>
