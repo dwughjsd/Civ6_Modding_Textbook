@@ -2,8 +2,6 @@
 <GameData>
 	<Types>
 		<Row Type="UNIT_FELINE_KITTEN" Kind="KIND_UNIT"/>
-		<!--[4292313.982] [Gameplay] ERROR: Invalid Reference on TypeTags.Type - "ABILITY_COMBAT_BONUS_JASPER_KITTY" does not exist in Types-->
-		<!--Beware of inconsistencies and use replace in files-->
 		<Row Type="ABILITY_KITTEN_IGNORE_FOREST_MOVEMENT_PENALTY" Kind="KIND_ABILITY"/>
 	</Types>
 	<Tags>

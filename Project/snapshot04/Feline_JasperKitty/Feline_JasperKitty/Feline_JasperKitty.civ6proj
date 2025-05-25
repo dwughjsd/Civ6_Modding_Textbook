@@ -21,9 +21,9 @@
 </Associations>]]></AssociationData>
     <AssemblyName>Feline_JasperKitty</AssemblyName>
     <RootNamespace>Feline_JasperKitty</RootNamespace>
-    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Feline_Gameplay"><Criteria>FelineJasperKitty</Criteria><File>Data/Feline_JasperKitty_Civilizations.xml</File><File>Data/Feline_JasperKitty_Leaders.xml</File><File>Data/Feline_JasperKitty_Buildings.xml</File><File>Data/Feline_JasperKitty_Units.xml</File></UpdateDatabase><UpdateArt id="Feline_Art"><Criteria>FelineJasperKitty</Criteria><File>(Mod Art Dependency File)</File></UpdateArt><UpdateDatabase id="Feline_Expansion2"><Criteria>FelineJasperKitty_Expansion2</Criteria><File>Data/Feline_JasperKitty_Expansion2.xml</File></UpdateDatabase></InGameActions>]]></InGameActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Feline_Gameplay"><Criteria>FelineJasperKitty</Criteria><File>Data/Feline_JasperKitty_Civilizations.xml</File><File>Data/Feline_JasperKitty_Leaders.xml</File><File>Data/Feline_JasperKitty_Buildings.xml</File><File>Data/Feline_JasperKitty_Units.xml</File></UpdateDatabase><UpdateArt id="Feline_Art"><Criteria>FelineJasperKitty</Criteria><File>(Mod Art Dependency File)</File></UpdateArt></InGameActions>]]></InGameActionData>
     <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="Feline_Config"><File>Data/Feline_JasperKitty_Config.xml</File></UpdateDatabase><UpdateArt id="Feline_ConfigArt"><File>(Mod Art Dependency File)</File></UpdateArt></FrontEndActions>]]></FrontEndActionData>
-    <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="FelineJasperKitty"><LeaderPlayable>Players:StandardPlayers::LEADER_JASPER_KITTY,StandardPlayers::LEADER_JASPER_KITTY,Players:Expansion1_Players::LEADER_JASPER_KITTY,Players:Expansion2_Players::LEADER_JASPER_KITTY</LeaderPlayable><RuleSetInUse>RULESET_STANDARD,RULESET_EXPANSION_1,RULESET_EXPANSION_2</RuleSetInUse></Criteria><Criteria id="FelineJasperKitty_Expansion2"><LeaderPlayable>Players:Expansion2_Players::LEADER_JASPER_KITTY</LeaderPlayable><RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse></Criteria></ActionCriteria>]]></ActionCriteriaData>
+    <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="FelineJasperKitty"><LeaderPlayable>Players:Expansion2_Players::LEADER_JASPER_KITTY</LeaderPlayable></Criteria></ActionCriteria>]]></ActionCriteriaData>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>
@@ -43,9 +43,6 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Data\Feline_JasperKitty_Config.xml">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Data\Feline_JasperKitty_Expansion2.xml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Data\Feline_JasperKitty_Leaders.xml">
