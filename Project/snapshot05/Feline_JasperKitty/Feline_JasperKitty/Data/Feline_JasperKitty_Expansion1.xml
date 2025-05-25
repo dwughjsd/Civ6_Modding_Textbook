@@ -48,12 +48,4 @@
 			<Value>YIELD_CULTURE</Value>
 		</Row>
 	</ModifierArguments>
-	<UnitUpgrades>
-		<Update>
-			<Where Unit="UNIT_FELINE_KITTEN"/>
-			<Set>
-				<UpgradeUnit>UNIT_SKIRMISHER</UpgradeUnit>
-			</Set>
-		</Update>
-	</UnitUpgrades>
 </GameData>

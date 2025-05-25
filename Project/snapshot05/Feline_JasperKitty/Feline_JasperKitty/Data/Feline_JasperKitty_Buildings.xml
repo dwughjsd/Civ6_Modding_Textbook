@@ -10,38 +10,6 @@
 		<Row CivUniqueBuildingType="BUILDING_LITTER_BOX" ReplacesBuildingType="BUILDING_MONUMENT"/>
 	</BuildingReplaces>
 	<Building_YieldChanges>
-		<Row BuildingType="BUILDING_LITTER_BOX" YieldType="YIELD_CULTURE" YieldChange="2"/>
+		<Row BuildingType="BUILDING_LITTER_BOX" YieldType="YIELD_CULTURE" YieldChange="4"/>
 	</Building_YieldChanges>
-	<BuildingModifiers>
-		<Row BuildingType="BUILDING_LITTER_BOX" ModifierId="LITTER_BOX_LOYALTY"/>
-		<Row BuildingType="BUILDING_LITTER_BOX" ModifierId="LITTER_BOX_CULTURE_AT_FULL_LOYALTY"/>
-	</BuildingModifiers>
-	<Modifiers>
-		<Row>
-			<ModifierId>LITTER_BOX_LOYALTY</ModifierId>
-			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_IDENTITY_PER_TURN</ModifierType>
-		</Row>
-		<Row>
-			<ModifierId>LITTER_BOX_CULTURE_AT_FULL_LOYALTY</ModifierId>
-			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_YIELD_CHANGE</ModifierType>
-			<SubjectRequirementSetId>MONUMENT_FULL_LOYALTY_REQUIREMENTS</SubjectRequirementSetId>
-		</Row>
-	</Modifiers>
-	<ModifierArguments>
-		<Row>
-			<ModifierId>LITTER_BOX_LOYALTY</ModifierId>
-			<Name>Amount</Name>
-			<Value>2</Value>
-		</Row>
-		<Row>
-			<ModifierId>LITTER_BOX_CULTURE_AT_FULL_LOYALTY</ModifierId>
-			<Name>Amount</Name>
-			<Value>2</Value>
-		</Row>
-		<Row>
-			<ModifierId>LITTER_BOX_CULTURE_AT_FULL_LOYALTY</ModifierId>
-			<Name>YieldType</Name>
-			<Value>YIELD_CULTURE</Value>
-		</Row>
-	</ModifierArguments>
 </GameData>
