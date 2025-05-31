@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Row Tag="LOC_TRAIT_CIVILIZATION_FELINE_NAME" Language="zh_Hans_CN">
+		<Text>重塑之羽</Text>
+	</Row>
+
+	<Row Tag="LOC_TRAIT_CIVILIZATION_FELINE_DESCRIPTION" Language="zh_Hans_CN">
+		<Text>若2级或以上的单位在战斗中阵亡，在首都获得一个免费的同类单位。以20点 [ICON_Faith] 信仰值开始游戏（标准速度下）。若未创立宗教，建造圣地后立即获得一个 [ICON_GreatProphet] 大预言家。爱梅斯与可可萝被视为重复领袖。获得特色单位“可可萝”。</Text>
+	</Row>
+
+	<Row Tag="LOC_TRAIT_LEADER_JASPER_KITTY_NAME" Language="zh_Hans_CN">
+		<Text>繁花之幸</Text>
+	</Row>
+
+	<Row Tag="LOC_TRAIT_LEADER_JASPER_KITTY_DESCRIPTION" Language="zh_Hans_CN">
+		<Text>研发新时代的首个科技或市政后获得1个该时代的 [ICON_TechBoosted] 尤里卡和 [ICON_CivicBoosted] 鼓舞。处于黑暗时代时，[ICON_TechBoosted] 尤里卡和 [ICON_CivicBoosted] 鼓舞可立即完成科技或市政。每个 [ICON_GreatWork_Portrait] 记忆碎片巨作提供 +2 [ICON_Science] 科技值、+2 [ICON_Production] 生产力、+4 [ICON_Gold] 金币。</Text>
+	</Row>
+</GameData>
