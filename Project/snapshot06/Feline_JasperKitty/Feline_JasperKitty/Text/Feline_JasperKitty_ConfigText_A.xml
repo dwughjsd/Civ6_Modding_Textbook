@@ -1,4 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
-
+	<LocalizedText>
+		<Row Tag="LOC_CIVILIZATION_FELINE_NAME" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_LEADER_JASPER_KITTY_NAME" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_CAT_LIKE_REFLEXES_NAME" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_CAT_LIKE_REFLEXES_DESCRIPTION" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_KITTY_CLAWS_NAME" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_KITTY_CLAWS_DESCRIPTION" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_UNIT_FELINE_KITTEN_NAME" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_UNIT_FELINE_KITTEN_DESCRIPTION" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_LITTER_BOX_NAME" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_LITTER_BOX_DESCRIPTION" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_LITTER_BOX_DESCRIPTION_XP" Language="en_US">
+			<Text></Text>
+		</Row>
+	</LocalizedText>
 </GameData>
