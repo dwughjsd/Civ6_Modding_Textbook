@@ -2,37 +2,37 @@
 <GameData>
 	<LocalizedText>
 		<Row Tag="LOC_CIVILIZATION_FELINE_NAME" Language="en_US">
-			<Text></Text>
+			<Text>The Felines</Text>
 		</Row>
 		<Row Tag="LOC_LEADER_JASPER_KITTY_NAME" Language="en_US">
-			<Text></Text>
+			<Text>Jasper Kitty</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_CAT_LIKE_REFLEXES_NAME" Language="en_US">
-			<Text></Text>
+			<Text>Cat Like Reflexes</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_CAT_LIKE_REFLEXES_DESCRIPTION" Language="en_US">
-			<Text></Text>
+			<Text>Capital receives +100% boost to all yields.</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_KITTY_CLAWS_NAME" Language="en_US">
-			<Text></Text>
+			<Text>Kitty Claws</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_KITTY_CLAWS_DESCRIPTION" Language="en_US">
-			<Text></Text>
+			<Text>All land units gain +10 [ICON_Strength] Combat Strength.</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_FELINE_KITTEN_NAME" Language="en_US">
-			<Text></Text>
+			<Text>Kitten</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_FELINE_KITTEN_DESCRIPTION" Language="en_US">
-			<Text></Text>
+			<Text>Feline unique Ancient era unit that replaces the Scout. Has a higher sight range and ignores [ICON_Movement] Movement penalties for Woods and Rainforests.</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_LITTER_BOX_NAME" Language="en_US">
-			<Text></Text>
+			<Text>Litter Box</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_LITTER_BOX_DESCRIPTION" Language="en_US">
-			<Text></Text>
+			<Text>A building unique to the Felines. Provides +4 [ICON_Culture] Culture.</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_LITTER_BOX_DESCRIPTION_XP" Language="en_US">
-			<Text></Text>
+			<Text>A building unique to the Felines. Provides +4 [ICON_Culture] Culture and +2 Loyalty per turn in this city. If the city already has maximum Loyalty, also provides an additional +2 [ICON_Culture] Culture.</Text>
 		</Row>
 	</LocalizedText>
 </GameData>

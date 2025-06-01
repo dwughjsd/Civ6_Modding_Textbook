@@ -2,37 +2,37 @@
 <GameData>
 	<LocalizedText>
 		<Row Tag="LOC_CIVILIZATION_FELINE_NAME" Language="zh_Hans_CN">
-			<Text></Text>
+			<Text>猫猫族</Text>
 		</Row>
 		<Row Tag="LOC_LEADER_JASPER_KITTY_NAME" Language="zh_Hans_CN">
-			<Text></Text>
+			<Text>猫咪贾斯伯</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_CAT_LIKE_REFLEXES_NAME" Language="zh_Hans_CN">
-			<Text></Text>
+			<Text>猫式迅捷</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_CAT_LIKE_REFLEXES_DESCRIPTION" Language="zh_Hans_CN">
-			<Text></Text>
+			<Text>首都获得所有产出+100%的加成。</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_KITTY_CLAWS_NAME" Language="zh_Hans_CN">
-			<Text></Text>
+			<Text>猫猫爪击</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_KITTY_CLAWS_DESCRIPTION" Language="zh_Hans_CN">
-			<Text></Text>
+			<Text>所有陆地单位+10 [ICON_Strength] 战斗力。</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_FELINE_KITTEN_NAME" Language="zh_Hans_CN">
-			<Text></Text>
+			<Text>猫咪</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_FELINE_KITTEN_DESCRIPTION" Language="zh_Hans_CN">
-			<Text></Text>
+			<Text>远古时代猫猫族特色单位，替代侦察兵。视野范围更大，且无视森林和雨林的 [ICON_Movement] 移动力惩罚。</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_LITTER_BOX_NAME" Language="zh_Hans_CN">
-			<Text></Text>
+			<Text>猫砂盆</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_LITTER_BOX_DESCRIPTION" Language="zh_Hans_CN">
-			<Text></Text>
+			<Text>猫猫族特色建筑。提供+4 [ICON_Culture] 文化值。</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_LITTER_BOX_DESCRIPTION_XP" Language="zh_Hans_CN">
-			<Text></Text>
+			<Text>猫猫族特色建筑。为本城市+2 [ICON_Culture] 文化值并每回合+2忠诚度。如城市忠诚度已达最高，则额外+2 [ICON_Culture] 文化值。</Text>
 		</Row>
 	</LocalizedText>
 </GameData>
