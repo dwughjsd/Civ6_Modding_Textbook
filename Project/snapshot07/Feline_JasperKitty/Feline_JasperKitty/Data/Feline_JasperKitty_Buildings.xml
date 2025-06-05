@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="BUILDING_LITTER_BOX" Kind="KIND_BUILDING" />
+	</Types>
+	<Buildings>
+		<Row BuildingType="BUILDING_LITTER_BOX" Name="LOC_BUILDING_LITTER_BOX_NAME" Description="LOC_BUILDING_LITTER_BOX_DESCRIPTION" PrereqDistrict="DISTRICT_CITY_CENTER"  PurchaseYield="YIELD_GOLD" Cost="60" TraitType="TRAIT_CIVILIZATION_BUILDING_LITTER_BOX" AdvisorType="ADVISOR_CULTURE"/>
+	</Buildings>
+	<BuildingReplaces>
+		<Row CivUniqueBuildingType="BUILDING_LITTER_BOX" ReplacesBuildingType="BUILDING_MONUMENT"/>
+	</BuildingReplaces>
+	<Building_YieldChanges>
+		<Row BuildingType="BUILDING_LITTER_BOX" YieldType="YIELD_CULTURE" YieldChange="4"/>
+	</Building_YieldChanges>
+</GameData>
