@@ -484,7 +484,9 @@
 		</Element>
 		<Element>
 			<libraryName text="UITexture"/>
-			<relativePackagePaths/>
+			<relativePackagePaths>
+				<Element text="UI/Icons"/>
+			</relativePackagePaths>
 		</Element>
 		<Element>
 			<libraryName text="Unit"/>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<IconTextureAtlases>
+		<Row Filename="Feline256" IconsPerColumn="1" IconsPerRow="1" IconSize="256" Name="ICON_ATLAS_FELINE"/>
+		<Row Filename="Feline128" IconsPerColumn="1" IconsPerRow="1" IconSize="128" Name="ICON_ATLAS_FELINE"/>
+		<Row Filename="Feline80" IconsPerColumn="1" IconsPerRow="1" IconSize="80" Name="ICON_ATLAS_FELINE"/>
+		<Row Filename="Feline64" IconsPerColumn="1" IconsPerRow="1" IconSize="64" Name="ICON_ATLAS_FELINE"/>
+		<Row Filename="Feline50" IconsPerColumn="1" IconsPerRow="1" IconSize="50" Name="ICON_ATLAS_FELINE"/>
+		<Row Filename="Feline48" IconsPerColumn="1" IconsPerRow="1" IconSize="48" Name="ICON_ATLAS_FELINE"/>
+		<Row Filename="Feline45" IconsPerColumn="1" IconsPerRow="1" IconSize="45" Name="ICON_ATLAS_FELINE"/>
+		<Row Filename="Feline44" IconsPerColumn="1" IconsPerRow="1" IconSize="44" Name="ICON_ATLAS_FELINE"/>
+		<Row Filename="Feline36" IconsPerColumn="1" IconsPerRow="1" IconSize="36" Name="ICON_ATLAS_FELINE"/>
+		<Row Filename="Feline32" IconsPerColumn="1" IconsPerRow="1" IconSize="32" Name="ICON_ATLAS_FELINE"/>
+		<Row Filename="Feline30" IconsPerColumn="1" IconsPerRow="1" IconSize="30" Name="ICON_ATLAS_FELINE"/>
+		<Row Filename="Feline22" IconsPerColumn="1" IconsPerRow="1" IconSize="22" Name="ICON_ATLAS_FELINE"/>
+		<Row Filename="JasperKitty32" IconsPerColumn="1" IconsPerRow="1" IconSize="32" Name="ICON_ATLAS_JASPER_KITTY"/>
+		<Row Filename="JasperKitty45" IconsPerColumn="1" IconsPerRow="1" IconSize="45" Name="ICON_ATLAS_JASPER_KITTY"/>
+		<Row Filename="JasperKitty48" IconsPerColumn="1" IconsPerRow="1" IconSize="48" Name="ICON_ATLAS_JASPER_KITTY"/>
+		<Row Filename="JasperKitty50" IconsPerColumn="1" IconsPerRow="1" IconSize="50" Name="ICON_ATLAS_JASPER_KITTY"/>
+		<Row Filename="JasperKitty55" IconsPerColumn="1" IconsPerRow="1" IconSize="55" Name="ICON_ATLAS_JASPER_KITTY"/>
+		<Row Filename="JasperKitty64" IconsPerColumn="1" IconsPerRow="1" IconSize="64" Name="ICON_ATLAS_JASPER_KITTY"/>
+		<Row Filename="JasperKitty80" IconsPerColumn="1" IconsPerRow="1" IconSize="80" Name="ICON_ATLAS_JASPER_KITTY"/>
+		<Row Filename="JasperKitty256" IconsPerColumn="1" IconsPerRow="1" IconSize="256" Name="ICON_ATLAS_JASPER_KITTY"/>
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<Row Name="ICON_CIVILIZATION_FELINE" Atlas="ICON_ATLAS_FELINE" Index="0"/>
+		<Row Name="ICON_LEADER_JASPER_KITTY" Atlas="ICON_ATLAS_JASPER_KITTY" Index="0"/>
+		<Row Name="ICON_BUILDING_LITTER_BOX" Atlas="ICON_ATLAS_BUILDINGS" Index="0"/>
+		<Row Name="ICON_BUILDING_LITTER_BOX_FOW" Atlas="ICON_ATLAS_BUILDINGS_FOW" Index="0"/>
+		<Row Name="ICON_UNIT_FELINE_KITTEN" Atlas="ICON_ATLAS_UNITS" Index="19"/>
+		<Row Name="ICON_UNIT_FELINE_KITTEN_FOW" Atlas="ICON_ATLAS_UNITS_FOW" Index="19"/>
+		<Row Name="ICON_UNIT_FELINE_KITTEN_PORTRAIT" Atlas="ICON_ATLAS_UNIT_PORTRAITS" Index="17"/>
+	</IconDefinitions>
+</GameData>
