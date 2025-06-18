@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_FELINE_JASPER_KITTY_MOD_TITLE" Language="en_US">
+			<Text>Feline Pack</Text>
+		</Row>
+		<Row Tag="LOC_FELINE_JASPER_KITTY_MOD_TEASER" Language="en_US">
+			<Text>New Civilization and Leader - Jasper Kitty of the Felines</Text>
+		</Row>
+		<Row Tag="LOC_FELINE_JASPER_KITTY_MOD_DESCRIPTION" Language="en_US">
+			<Text>Contains a new civilization and leader.</Text>
+		</Row>
+		<Row Tag="LOC_FELINE_JASPER_KITTY_MOD_AUTHORS" Language="en_US">
+			<Text>Proud Little Yuni</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

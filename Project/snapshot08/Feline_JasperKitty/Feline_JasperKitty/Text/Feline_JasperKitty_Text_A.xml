@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_CIVILIZATION_FELINE_DESCRIPTION" Language="en_US">
+			<Text>Feline Empire</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_FELINE_ADJECTIVE" Language="en_US">
+			<Text>Feline</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PAWTIMORE" Language="en_US">
+			<Text>Pawtimore</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_COMBAT_BONUS_JASPER_KITTY_NAME" Language="en_US">
+			<Text>{LOC_TRAIT_LEADER_KITTY_CLAWS_NAME}</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_COMBAT_BONUS_JASPER_KITTY_DESCRIPTION" Language="en_US">
+			<Text>+10 [ICON_Strength] Combat Strength.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_COMBAT_BONUS_JASPER_KITTY_MODIFIER_DESCRIPTION" Language="en_US">
+			<Text>+10 [ICON_Strength] Combat Strength from {LOC_TRAIT_LEADER_KITTY_CLAWS_NAME}</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_KITTEN_IGNORE_FOREST_MOVEMENT_PENALTY_NAME" Language="en_US">
+			<Text>{LOC_UNIT_FELINE_KITTEN_NAME}</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_KITTEN_IGNORE_FOREST_MOVEMENT_PENALTY_DESCRIPTION" Language="en_US">
+			<Text>Ignores [ICON_Movement] Movement penalties for Woods and Rainforests.</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

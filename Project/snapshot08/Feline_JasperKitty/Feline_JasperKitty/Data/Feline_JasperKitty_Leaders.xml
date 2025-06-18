@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="LEADER_JASPER_KITTY" Kind="KIND_LEADER" />
+		<Row Type="TRAIT_LEADER_KITTY_CLAWS" Kind="KIND_TRAIT"/>
+		<Row Type="ABILITY_COMBAT_BONUS_JASPER_KITTY" Kind="KIND_ABILITY"/>
+	</Types>
+
+	<Leaders>
+		<Row>
+			<LeaderType>LEADER_JASPER_KITTY</LeaderType>
+			<Name>LOC_LEADER_JASPER_KITTY_NAME</Name>
+			<InheritFrom>LEADER_DEFAULT</InheritFrom>
+		</Row>
+	</Leaders>
+
+	<LeaderTraits>
+		<Row LeaderType="LEADER_JASPER_KITTY" TraitType="TRAIT_LEADER_KITTY_CLAWS"/>
+	</LeaderTraits>
+
+	<Traits>
+		<Row TraitType="TRAIT_LEADER_KITTY_CLAWS" Name="LOC_TRAIT_LEADER_KITTY_CLAWS_NAME" Description="LOC_TRAIT_LEADER_KITTY_CLAWS_DESCRIPTION"/>
+	</Traits>
+
+	<UnitAbilities>
+		<Row UnitAbilityType="ABILITY_COMBAT_BONUS_JASPER_KITTY" Name="LOC_ABILITY_COMBAT_BONUS_JASPER_KITTY_NAME" Description="LOC_ABILITY_COMBAT_BONUS_JASPER_KITTY_DESCRIPTION" Inactive="true"/>
+	</UnitAbilities>
+
+	<UnitAbilityModifiers>
+		<Row>
+			<UnitAbilityType>ABILITY_COMBAT_BONUS_JASPER_KITTY</UnitAbilityType>
+			<ModifierId>KITTY_CLAWS_COMBAT_BONUS</ModifierId>
+		</Row>
+	</UnitAbilityModifiers>
+
+	<TypeTags>
+		<Row Type="ABILITY_COMBAT_BONUS_JASPER_KITTY" Tag="CLASS_RECON"/>
+		<Row Type="ABILITY_COMBAT_BONUS_JASPER_KITTY" Tag="CLASS_MELEE"/>
+		<Row Type="ABILITY_COMBAT_BONUS_JASPER_KITTY" Tag="CLASS_RANGED"/>
+		<Row Type="ABILITY_COMBAT_BONUS_JASPER_KITTY" Tag="CLASS_SIEGE"/>
+		<Row Type="ABILITY_COMBAT_BONUS_JASPER_KITTY" Tag="CLASS_HEAVY_CAVALRY"/>
+		<Row Type="ABILITY_COMBAT_BONUS_JASPER_KITTY" Tag="CLASS_LIGHT_CAVALRY"/>
+		<Row Type="ABILITY_COMBAT_BONUS_JASPER_KITTY" Tag="CLASS_RANGED_CAVALRY"/>
+	</TypeTags>
+
+	<TraitModifiers>
+		<Row TraitType="TRAIT_LEADER_KITTY_CLAWS" ModifierId="TRAIT_LEADER_JASPER_KITTY_COMBAT_BONUS"/>
+	</TraitModifiers>
+
+	<Modifiers>
+		<Row>
+			<ModifierId>TRAIT_LEADER_JASPER_KITTY_COMBAT_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>KITTY_CLAWS_COMBAT_BONUS</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+		</Row>
+	</Modifiers>
+
+	<ModifierArguments>
+		<Row>
+			<ModifierId>TRAIT_LEADER_JASPER_KITTY_COMBAT_BONUS</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_COMBAT_BONUS_JASPER_KITTY</Value>
+		</Row>
+		<Row>
+			<ModifierId>KITTY_CLAWS_COMBAT_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
+	</ModifierArguments>
+	
+	
+	<ModifierStrings>
+		<Row ModifierId="KITTY_CLAWS_COMBAT_BONUS" Context="Preview" Text="LOC_ABILITY_COMBAT_BONUS_JASPER_KITTY_MODIFIER_DESCRIPTION"/>
+	</ModifierStrings>
+	
+</GameData>
