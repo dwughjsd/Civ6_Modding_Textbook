@@ -4,9 +4,9 @@
 		<Row>
 			<Type>LEADER_JASPER_KITTY</Type>
 			<Usage>Unique</Usage>
-			<PrimaryColor>COLOR_STANDARD_ORANGE_MD</PrimaryColor>
-			<SecondaryColor>COLOR_STANDARD_WHITE_DK</SecondaryColor>
-			<Alt1PrimaryColor>COLOR_STANDARD_GREEN_MD</Alt1PrimaryColor>
+			<PrimaryColor>COLOR_STANDARD_AQUA_LT</PrimaryColor>
+			<SecondaryColor>COLOR_STANDARD_WHITE_LT</SecondaryColor>
+			<Alt1PrimaryColor>COLOR_STANDARD_WHITE_LT</Alt1PrimaryColor>
 			<Alt1SecondaryColor>COLOR_STANDARD_AQUA_LT</Alt1SecondaryColor>
 			<Alt2PrimaryColor>COLOR_STANDARD_BLUE_MD</Alt2PrimaryColor>
 			<Alt2SecondaryColor>COLOR_STANDARD_WHITE_LT</Alt2SecondaryColor>

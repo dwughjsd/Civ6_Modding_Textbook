@@ -10,6 +10,7 @@
 		<Row>
 			<LeaderType>LEADER_JASPER_KITTY</LeaderType>
 			<Name>LOC_LEADER_JASPER_KITTY_NAME</Name>
+			<SceneLayers>4</SceneLayers>
 			<InheritFrom>LEADER_DEFAULT</InheritFrom>
 		</Row>
 	</Leaders>

@@ -8,7 +8,24 @@
 	</m_Version>
 	<m_ClassName text="UITexture"/>
 	<m_PackageName text="UI_LeaderScenes"/>
-	<m_Entries/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="JASPER_KITTY_1"/>
+			<m_ObjectName text="JASPER_KITTY_1"/>
+		</Element>
+		<Element>
+			<m_EntryID text="JASPER_KITTY_2"/>
+			<m_ObjectName text="JASPER_KITTY_2"/>
+		</Element>
+		<Element>
+			<m_EntryID text="JASPER_KITTY_3"/>
+			<m_ObjectName text="JASPER_KITTY_3"/>
+		</Element>
+		<Element>
+			<m_EntryID text="JASPER_KITTY_4"/>
+			<m_ObjectName text="BARBAROSSA_4"/>
+		</Element>
+	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>
 	</m_AllowedPlatforms>

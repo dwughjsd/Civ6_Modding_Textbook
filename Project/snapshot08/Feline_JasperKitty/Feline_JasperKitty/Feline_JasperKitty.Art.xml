@@ -10,6 +10,7 @@
 			<relativeArtDefPaths>
 				<Element text="Cultures.artdef"/>
 				<Element text="Units.artdef"/>
+				<Element text="Landmarks.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies>
 				<Element text="Unit"/>
@@ -33,6 +34,7 @@
 			<relativeArtDefPaths>
 				<Element text="Civilizations.artdef"/>
 				<Element text="Cultures.artdef"/>
+				<Element text="Landmarks.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies>
 				<Element text="CityBuildings"/>
@@ -43,7 +45,9 @@
 		</Element>
 		<Element>
 			<consumerName text="Farms"/>
-			<relativeArtDefPaths/>
+			<relativeArtDefPaths>
+				<Element text="Landmarks.artdef"/>
+			</relativeArtDefPaths>
 			<libraryDependencies>
 				<Element text="TileBase"/>
 				<Element text="CityBuildings"/>
@@ -63,6 +67,7 @@
 			<consumerName text="StrategicView_Properties"/>
 			<relativeArtDefPaths>
 				<Element text="StrategicView.artdef"/>
+				<Element text="Landmarks.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies/>
 			<loadsLibraries>false</loadsLibraries>
@@ -71,6 +76,7 @@
 			<consumerName text="StrategicView_Sprite"/>
 			<relativeArtDefPaths>
 				<Element text="StrategicView.artdef"/>
+				<Element text="Landmarks.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies>
 				<Element text="StrategicView_Sprite"/>
@@ -82,6 +88,7 @@
 			<consumerName text="StrategicView_Route"/>
 			<relativeArtDefPaths>
 				<Element text="StrategicView.artdef"/>
+				<Element text="Landmarks.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies>
 				<Element text="StrategicView_Route"/>
@@ -93,6 +100,7 @@
 			<consumerName text="StrategicView_TerrainType"/>
 			<relativeArtDefPaths>
 				<Element text="StrategicView.artdef"/>
+				<Element text="Landmarks.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies>
 				<Element text="StrategicView_TerrainBlend"/>
@@ -106,6 +114,7 @@
 			<consumerName text="StrategicView_TerrainBlendCorners"/>
 			<relativeArtDefPaths>
 				<Element text="StrategicView.artdef"/>
+				<Element text="Landmarks.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies>
 				<Element text="StrategicView_TerrainBlendCorners"/>
@@ -117,6 +126,7 @@
 			<consumerName text="StrategicView_TerrainBlend"/>
 			<relativeArtDefPaths>
 				<Element text="StrategicView.artdef"/>
+				<Element text="Landmarks.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies>
 				<Element text="StrategicView_TerrainBlend"/>
@@ -126,7 +136,9 @@
 		</Element>
 		<Element>
 			<consumerName text="Terrain"/>
-			<relativeArtDefPaths/>
+			<relativeArtDefPaths>
+				<Element text="Landmarks.artdef"/>
+			</relativeArtDefPaths>
 			<libraryDependencies>
 				<Element text="TerrainAsset"/>
 				<Element text="TerrainElement"/>
@@ -195,7 +207,9 @@
 		</Element>
 		<Element>
 			<consumerName text="VFX"/>
-			<relativeArtDefPaths/>
+			<relativeArtDefPaths>
+				<Element text="Landmarks.artdef"/>
+			</relativeArtDefPaths>
 			<libraryDependencies>
 				<Element text="VFX"/>
 				<Element text="Light"/>
@@ -234,13 +248,17 @@
 		</Element>
 		<Element>
 			<consumerName text="Terrains"/>
-			<relativeArtDefPaths/>
+			<relativeArtDefPaths>
+				<Element text="Landmarks.artdef"/>
+			</relativeArtDefPaths>
 			<libraryDependencies/>
 			<loadsLibraries>false</loadsLibraries>
 		</Element>
 		<Element>
 			<consumerName text="Features"/>
-			<relativeArtDefPaths/>
+			<relativeArtDefPaths>
+				<Element text="Landmarks.artdef"/>
+			</relativeArtDefPaths>
 			<libraryDependencies/>
 			<loadsLibraries>false</loadsLibraries>
 		</Element>
@@ -263,13 +281,17 @@
 		</Element>
 		<Element>
 			<consumerName text="Resources"/>
-			<relativeArtDefPaths/>
+			<relativeArtDefPaths>
+				<Element text="Landmarks.artdef"/>
+			</relativeArtDefPaths>
 			<libraryDependencies/>
 			<loadsLibraries>false</loadsLibraries>
 		</Element>
 		<Element>
 			<consumerName text="Improvements"/>
-			<relativeArtDefPaths/>
+			<relativeArtDefPaths>
+				<Element text="Landmarks.artdef"/>
+			</relativeArtDefPaths>
 			<libraryDependencies/>
 			<loadsLibraries>false</loadsLibraries>
 		</Element>
@@ -279,6 +301,7 @@
 				<Element text="Civilizations.artdef"/>
 				<Element text="Buildings.artdef"/>
 				<Element text="Cultures.artdef"/>
+				<Element text="Landmarks.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies/>
 			<loadsLibraries>false</loadsLibraries>
@@ -287,6 +310,7 @@
 			<consumerName text="StrategicView_Translate"/>
 			<relativeArtDefPaths>
 				<Element text="Buildings.artdef"/>
+				<Element text="Landmarks.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies/>
 			<loadsLibraries>false</loadsLibraries>
@@ -296,6 +320,7 @@
 			<relativeArtDefPaths>
 				<Element text="Civilizations.artdef"/>
 				<Element text="Leaders.artdef"/>
+				<Element text="Landmarks.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies/>
 			<loadsLibraries>false</loadsLibraries>
@@ -341,7 +366,9 @@
 		</Element>
 		<Element>
 			<consumerName text="IndirectGrid"/>
-			<relativeArtDefPaths/>
+			<relativeArtDefPaths>
+				<Element text="Landmarks.artdef"/>
+			</relativeArtDefPaths>
 			<libraryDependencies/>
 			<loadsLibraries>false</loadsLibraries>
 		</Element>
@@ -395,7 +422,9 @@
 		</Element>
 		<Element>
 			<consumerName text="UnitSimulation"/>
-			<relativeArtDefPaths/>
+			<relativeArtDefPaths>
+				<Element text="Landmarks.artdef"/>
+			</relativeArtDefPaths>
 			<libraryDependencies/>
 			<loadsLibraries>false</loadsLibraries>
 		</Element>
