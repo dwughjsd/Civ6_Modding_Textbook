@@ -8,7 +8,12 @@
 	</m_Version>
 	<m_ClassName text="LeaderLighting"/>
 	<m_PackageName text="leaders/light_rigs"/>
-	<m_Entries/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="JasperKitty_LightRig"/>
+			<m_ObjectName text="JasperKitty_LightRig"/>
+		</Element>
+	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>
 	</m_AllowedPlatforms>
