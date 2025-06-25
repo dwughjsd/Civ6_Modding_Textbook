@@ -25,5 +25,24 @@
 		<Row Tag="LOC_ABILITY_KITTEN_IGNORE_FOREST_MOVEMENT_PENALTY_DESCRIPTION" Language="en_US">
 			<Text>Ignores [ICON_Movement] Movement penalties for Woods and Rainforests.</Text>
 		</Row>
+		<Row Tag="LOC_AGENDA_TERRITORIAL_CAT_NAME" Language="en_US">
+			<Text>Territorial</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_TERRITORIAL_CAT_DESCRIPTION" Language="en_US">
+			<Text>Likes civilizations who settle at a distance. Dislikes any civilizations encroaching on Feline territory.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_TERRITORIAL_CAT_NEIGHBOR" Language="en_US">
+			<Text>Jasper Kitty is disturbed by you settling near one of his cities.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_TERRITORIAL_CAT_NOT_NEIGHBOR" Language="en_US">
+			<Text>Jasper Kitty is pleased that you settled far away from his empire.</Text>
+		</Row>
+		
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_JASPER_KITTY_ANY" Language="en_US">
+			<Text>See that you continue to stay away from the Mayan homeland. For now the stars shine in your favor.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_JASPER_KITTY_ANY" Language="en_US">
+			<Text>The stars themselves look away from your deeds. Do not approach my lands.</Text>
+		</Row>
 	</LocalizedText>
 </GameData>

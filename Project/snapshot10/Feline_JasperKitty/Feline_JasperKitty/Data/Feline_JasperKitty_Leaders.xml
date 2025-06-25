@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<Types>
-		<Row Type="LEADER_JASPER_KITTY" Kind="KIND_LEADER" />
+		<Row Type="LEADER_JASPER_KITTY" Kind="KIND_LEADER"/>
 		<Row Type="TRAIT_LEADER_KITTY_CLAWS" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_AGENDA_TERRITORIAL_CAT" Kind="KIND_TRAIT"/>
 		<Row Type="ABILITY_COMBAT_BONUS_JASPER_KITTY" Kind="KIND_ABILITY"/>
 	</Types>
 
@@ -21,6 +22,7 @@
 
 	<Traits>
 		<Row TraitType="TRAIT_LEADER_KITTY_CLAWS" Name="LOC_TRAIT_LEADER_KITTY_CLAWS_NAME" Description="LOC_TRAIT_LEADER_KITTY_CLAWS_DESCRIPTION"/>
+		<Row TraitType="TRAIT_AGENDA_TERRITORIAL_CAT"/>
 	</Traits>
 
 	<UnitAbilities>
@@ -46,6 +48,8 @@
 
 	<TraitModifiers>
 		<Row TraitType="TRAIT_LEADER_KITTY_CLAWS" ModifierId="TRAIT_LEADER_JASPER_KITTY_COMBAT_BONUS"/>
+		<Row TraitType="TRAIT_AGENDA_TERRITORIAL_CAT" ModifierId="AGENDA_TERRITORIAL_CAT_NEIGHBORS"/>
+		<Row TraitType="TRAIT_AGENDA_TERRITORIAL_CAT" ModifierId="AGENDA_TERRITORIAL_CAT_NOT_NEIGHBORS"/>
 	</TraitModifiers>
 
 	<Modifiers>
@@ -57,6 +61,16 @@
 		<Row>
 			<ModifierId>KITTY_CLAWS_COMBAT_BONUS</ModifierId>
 			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_TERRITORIAL_CAT_NEIGHBORS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYERS_ARE_NEIGHBORS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_TERRITORIAL_CAT_NOT_NEIGHBORS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYERS_ARE_NOT_NEIGHBORS</SubjectRequirementSetId>
 		</Row>
 	</Modifiers>
 
@@ -71,11 +85,80 @@
 			<Name>Amount</Name>
 			<Value>10</Value>
 		</Row>
+		<Row>
+			<ModifierId>AGENDA_TERRITORIAL_CAT_NEIGHBORS</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>-8</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_TERRITORIAL_CAT_NEIGHBORS</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_WARNING_EXIT_LEADER_JASPER_KITTY_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_TERRITORIAL_CAT_NEIGHBORS</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_TERRITORIAL_CAT_NEIGHBOR</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_TERRITORIAL_CAT_NOT_NEIGHBORS</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>8</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_TERRITORIAL_CAT_NOT_NEIGHBORS</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_KUDO_EXIT_LEADER_JASPER_KITTY_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_TERRITORIAL_CAT_NOT_NEIGHBORS</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_TERRITORIAL_CAT_NOT_NEIGHBOR</Value>
+		</Row>
 	</ModifierArguments>
-	
-	
+
 	<ModifierStrings>
 		<Row ModifierId="KITTY_CLAWS_COMBAT_BONUS" Context="Preview" Text="LOC_ABILITY_COMBAT_BONUS_JASPER_KITTY_MODIFIER_DESCRIPTION"/>
+		<Row ModifierId="AGENDA_TERRITORIAL_CAT_NEIGHBORS" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+		<Row ModifierId="AGENDA_TERRITORIAL_CAT_NOT_NEIGHBORS" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
 	</ModifierStrings>
-	
+
+	<AiListTypes>
+		<Row ListType="JasperKittyTechs"/>
+		<Row ListType="JasperKittyCivics"/>
+		<Row ListType="JasperKittyWonders"/>
+	</AiListTypes>
+
+	<AiLists>
+		<Row ListType="JasperKittyTechs" LeaderType="TRAIT_LEADER_KITTY_CLAWS" System="Technologies"/>
+		<Row ListType="JasperKittyWonders" LeaderType="TRAIT_LEADER_KITTY_CLAWS" System="Buildings"/>
+		<Row ListType="JasperKittyCivics" LeaderType="TRAIT_LEADER_KITTY_CLAWS" System="Civics"/>
+	</AiLists>
+
+	<AiFavoredItems>
+		<Row ListType="JasperKittyTechs" Item="TECH_ANIMAL_HUSBANDRY" Favored="true"/>
+		<Row ListType="JasperKittyCivics" Item="CIVIC_EARLY_EMPIRE" Favored="true"/>
+		<Row ListType="JasperKittyWonders" Item="BUILDING_PYRAMIDS" Favored="true"/>
+	</AiFavoredItems>
+
+	<Agendas>
+		<Row AgendaType="AGENDA_TERRITORIAL_CAT" Name="LOC_AGENDA_TERRITORIAL_CAT_NAME" Description="LOC_AGENDA_TERRITORIAL_CAT_DESCRIPTION"/>
+	</Agendas>
+
+	<HistoricalAgendas>
+		<Row LeaderType="LEADER_JASPER_KITTY" AgendaType="AGENDA_TERRITORIAL_CAT"/>
+	</HistoricalAgendas>
+
+	<AgendaTraits>
+		<Row AgendaType="AGENDA_TERRITORIAL_CAT" TraitType="TRAIT_AGENDA_TERRITORIAL_CAT"/>
+	</AgendaTraits>
+
+	<ExclusiveAgendas>
+		<Row AgendaOne="AGENDA_TERRITORIAL_CAT" AgendaTwo="AGENDA_PARANOID"/>
+	</ExclusiveAgendas>
+
+	<LeaderQuotes>
+		<Row LeaderType="LEADER_JASPER_KITTY" Quote="LOC_LEADER_JASPER_KITTY_QUOTE" QuoteAudio="FELI_JK_MISC_PEP_TALK_A"/>
+	</LeaderQuotes>
+
 </GameData>

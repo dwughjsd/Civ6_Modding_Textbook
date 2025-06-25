@@ -25,5 +25,24 @@
 		<Row Tag="LOC_ABILITY_KITTEN_IGNORE_FOREST_MOVEMENT_PENALTY_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>无视森林和雨林的 [ICON_Movement] 移动力惩罚。</Text>
 		</Row>
+		<Replace Tag="LOC_AGENDA_TERRITORIAL_CAT_NAME" Language="zh_Hans_CN">
+			<Text>耄耋</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_TERRITORIAL_CAT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>喜欢在远方定居的文明；讨厌蚕食猫猫族领土的文明。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MODIFIER_TERRITORIAL_CAT_NEIGHBOR" Language="zh_Hans_CN">
+			<Text>猫咪贾斯伯不满你在他的城市附近定居</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MODIFIER_TERRITORIAL_CAT_NOT_NEIGHBOR" Language="zh_Hans_CN">
+			<Text>猫咪贾斯伯很高兴您远离他的帝国定居</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_JASPER_KITTY_ANY" Language="zh_Hans_CN">
+			<Text>你远离了玛雅的国土，星辰将暂时为你闪耀。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_JASPER_KITTY_ANY" Language="zh_Hans_CN">
+			<Text>你的所作所为让星辰无法直视。不准靠近我的国土。</Text>
+		</Replace>
 	</LocalizedText>
 </GameData>
