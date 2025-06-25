@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_CIVILIZATION_FELINE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>猫猫帝国</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_FELINE_ADJECTIVE" Language="zh_Hans_CN">
+			<Text>猫猫的</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PAWTIMORE" Language="zh_Hans_CN">
+			<Text>扒尔的摩</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_COMBAT_BONUS_JASPER_KITTY_NAME" Language="zh_Hans_CN">
+			<Text>{LOC_TRAIT_LEADER_KITTY_CLAWS_NAME}</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_COMBAT_BONUS_JASPER_KITTY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+10 [ICON_Strength] 战斗力。</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_COMBAT_BONUS_JASPER_KITTY_MODIFIER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+10 [ICON_Strength] 战斗力，来自{LOC_TRAIT_LEADER_KITTY_CLAWS_NAME}</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_KITTEN_IGNORE_FOREST_MOVEMENT_PENALTY_NAME" Language="zh_Hans_CN">
+			<Text>{LOC_UNIT_FELINE_KITTEN_NAME}</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_KITTEN_IGNORE_FOREST_MOVEMENT_PENALTY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>无视森林和雨林的 [ICON_Movement] 移动力惩罚。</Text>
+		</Row>
+	</LocalizedText>
+</GameData>
