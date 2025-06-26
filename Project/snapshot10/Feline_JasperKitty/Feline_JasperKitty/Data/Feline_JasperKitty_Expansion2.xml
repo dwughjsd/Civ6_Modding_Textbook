@@ -60,4 +60,23 @@
 			</Set>
 		</Update>
 	</UnitUpgrades>
+
+	<Types>
+		<Row Type="NAMED_MOUNTAIN_KITTY_MOUNTAINS" Kind="KIND_NAMED_MOUNTAIN"/>
+		<Row Type="NAMED_RIVER_FELINE_RIVER" Kind="KIND_NAMED_RIVER"/>
+	</Types>
+
+	<NamedMountains>
+		<InsertOrIgnore NamedMountainType="NAMED_MOUNTAIN_KITTY_MOUNTAINS" Name="LOC_NAMED_MOUNTAIN_KITTY_MOUNTAINS_NAME"/>
+	</NamedMountains>
+	<NamedRivers>
+		<InsertOrIgnore NamedRiverType="NAMED_RIVER_FELINE_RIVER" Name="LOC_NAMED_RIVER_FELINE_RIVER_NAME"/>
+	</NamedRivers>
+
+	<NamedMountainCivilizations>
+		<InsertOrIgnore NamedMountainType="NAMED_MOUNTAIN_KITTY_MOUNTAINS" CivilizationType="CIVILIZATION_FELINE"/>
+	</NamedMountainCivilizations>
+	<NamedRiverCivilizations>
+		<InsertOrIgnore NamedRiverType="NAMED_RIVER_FELINE_RIVER" CivilizationType="CIVILIZATION_FELINE"/>
+	</NamedRiverCivilizations>
 </GameData>
