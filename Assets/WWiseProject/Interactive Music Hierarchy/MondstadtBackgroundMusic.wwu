@@ -1,0 +1,2512 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2CF10CB9-50C8-4C4F-B352-111AD570CC93}" SchemaVersion="70">
+	<InteractiveMusic>
+		<WorkUnit Name="MondstadtBackgroundMusic" ID="{2CF10CB9-50C8-4C4F-B352-111AD570CC93}" PersistMode="Standalone">
+			<ChildrenList>
+				<MusicSwitchContainer Name="LeaderMusic_Mondstadt" ID="{8A7ED622-4362-48B0-9249-4D6C2E59EAE9}" ShortID="208127363">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-8</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Music Bus" ID="{1456573A-D3DD-4FB4-ABB8-5C0C78679B71}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicPlaylistContainer Name="MondstadtLeader_Ancient" ID="{59E86881-A88B-4663-B326-08717442215D}" ShortID="820976566">
+							<PropertyList>
+								<Property Name="GridFrequencyPreset" Type="int16" Value="52"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="Mondstadt_Ancient" ID="{82954FD1-9104-4A88-965D-7BFE98CEE256}" ShortID="1063494156">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="98077.8679173533"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Mondstadt_Ancient" ID="{B6354456-5156-427F-B406-4BA0C064EC4E}" ShortID="109069581">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Mondstadt_Ancient" ID="{1350C6D6-E2CA-405B-8B23-71771BB85352}" ShortID="1054794857">
+													<Language>SFX</Language>
+													<AudioFile>Mondstadt_Ancient.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="862482301"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{07D944C2-300A-4D9A-B355-E8A8A926483E}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{B88BB690-D162-4838-BBF4-B15D28E08DAF}">
+													<ClipList>
+														<MusicClip Name="Mondstadt_Ancient" ID="{6FC12E8C-5781-45AB-B05E-FF793BB6BD8A}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="97472.4489795918"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Mondstadt_Ancient" ID="{1350C6D6-E2CA-405B-8B23-71771BB85352}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{3BD3CD6D-59E2-421D-A014-D86B78CEC203}"/>
+										<MusicCue Name="Exit Cue" ID="{2A57938A-4C21-41D1-8857-5C644C63F8BA}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="97472.4489795918"/>
+											</PropertyList>
+										</MusicCue>
+										<MusicCue Name="ExitCustom" ID="{A96FC9FA-383C-4F5E-8A29-098D9C3D998D}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="2"/>
+												<Property Name="TimeMs" Type="Real64" Value="97230.2814044873"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{BFFFEF94-ADCC-4F8C-BD59-C547DC59C31E}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{4E8C8AF3-F80A-4DC0-8ECF-DCC40D294600}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{7A69BA8A-740F-4A7D-A9D5-26F20FD6E588}" ShortID="91703130">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+										<Property Name="PlayMode" Type="int16" Value="1"/>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="0"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{926DEBAD-6014-4FDF-BC86-E4178215948C}" ShortID="1052929220">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Mondstadt_Ancient" ID="{82954FD1-9104-4A88-965D-7BFE98CEE256}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="MondstadtLeader_Atomic" ID="{596A370F-0E5F-4DFF-99ED-C81B4AAC137E}" ShortID="304139619">
+							<PropertyList>
+								<Property Name="GridFrequencyPreset" Type="int16" Value="52"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="Mondstadt_Industrial" ID="{BB691175-3E07-499F-B9F5-91FDADD67672}" ShortID="89474501">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="281973.333333333"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Mondstadt_Industrial" ID="{0DA5A75C-298E-48A7-8DA5-B5F78C967CFD}" ShortID="586582527">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Mondstadt_Industrial" ID="{99EBC32D-8C30-4E26-957C-FB49EBA8F7B6}" ShortID="980952256">
+													<Language>SFX</Language>
+													<AudioFile>Mondstadt_Industrial.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="244580365"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{2A741D6C-5549-4DDD-9D0E-ACCB057D7149}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{E4F949D8-01F1-4C7E-AE43-12946F2613FA}">
+													<ClipList>
+														<MusicClip Name="Mondstadt_Industrial" ID="{328F07CF-5E8E-45AD-B7FD-AC20165FC40B}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="281973.333333333"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Mondstadt_Industrial" ID="{99EBC32D-8C30-4E26-957C-FB49EBA8F7B6}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{11AAA107-C151-4F9C-8930-667F3271547D}"/>
+										<MusicCue Name="Exit Cue" ID="{1ACE57E8-02BF-4F19-8E31-A6F89C9E7759}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="281973.333333333"/>
+											</PropertyList>
+										</MusicCue>
+										<MusicCue Name="ExitCustom" ID="{A30270CD-B5BE-4537-8FE1-78D356F1D8D2}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="2"/>
+												<Property Name="TimeMs" Type="Real64" Value="280922.501035197"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{5189B59E-C3B6-4794-8CCC-80D9CA33AA13}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{560D3DF6-B357-4D03-9FA7-C65EE48A8D3D}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{AC490A03-7327-4F16-B914-A06D5C037608}" ShortID="443828390">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+										<Property Name="PlayMode" Type="int16" Value="1"/>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="0"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{ECC86E63-0B7A-4EC2-8565-01D9BE8644D3}" ShortID="114305046">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Mondstadt_Industrial" ID="{BB691175-3E07-499F-B9F5-91FDADD67672}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="MondstadtLeader_Industrial" ID="{B92F22EA-6C51-4A14-A5EE-016DD8EA0C10}" ShortID="620821984">
+							<PropertyList>
+								<Property Name="GridFrequencyPreset" Type="int16" Value="52"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="Mondstadt_Industrial" ID="{9ABEB7AF-90AF-4E60-9DDD-5B0960554D71}" ShortID="425914161">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="281973.333333333"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Mondstadt_Industrial" ID="{0DECBAAA-6C74-4B88-8125-7A479E2C5C85}" ShortID="276291648">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Mondstadt_Industrial" ID="{3ACE5CBA-8AAA-4E6D-820F-3A2499E299D2}" ShortID="2694751">
+													<Language>SFX</Language>
+													<AudioFile>Mondstadt_Industrial.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="244580365"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{C5F419C2-587E-4DDB-8C2B-FE8961E89ADA}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{D45E5E75-C5E9-47D2-85CB-302138AF31DA}">
+													<ClipList>
+														<MusicClip Name="Mondstadt_Industrial" ID="{1AE74084-23F2-49E6-83F5-438890E9E97F}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="281973.333333333"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Mondstadt_Industrial" ID="{3ACE5CBA-8AAA-4E6D-820F-3A2499E299D2}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{FAAF171E-CBF7-4FF2-AE6A-E78EC101F64B}"/>
+										<MusicCue Name="Exit Cue" ID="{DA297DD8-9B79-497B-96B1-7EBFF99D4610}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="281973.333333333"/>
+											</PropertyList>
+										</MusicCue>
+										<MusicCue Name="ExitCustom" ID="{BB9B5CDC-87AE-41EA-9278-89219D870F6B}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="2"/>
+												<Property Name="TimeMs" Type="Real64" Value="280922.501035197"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{62AC750C-F204-4A88-9068-FC130A6B7CE4}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{2D29FE63-8758-41BE-BBEC-85E75D078936}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{AF7B0F28-8D8E-4243-97CA-57EA5CF984EF}" ShortID="485463361">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+										<Property Name="PlayMode" Type="int16" Value="1"/>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="0"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{37EF6895-5362-40F1-9CE1-122D156E6A78}" ShortID="50334041">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Mondstadt_Industrial" ID="{9ABEB7AF-90AF-4E60-9DDD-5B0960554D71}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="MondstadtLeader_Medieval" ID="{3F6536F7-D066-4B63-B1C5-9B99FA91B90A}" ShortID="442576204">
+							<PropertyList>
+								<Property Name="GridFrequencyPreset" Type="int16" Value="52"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="Mondstadt_Medieval_44100" ID="{8CD53999-01EF-4264-92E5-79E618747C42}" ShortID="171641192">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="147974.620132111"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Music Bus" ID="{1456573A-D3DD-4FB4-ABB8-5C0C78679B71}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Mondstadt_Medieval_44100" ID="{757E4FD1-5440-4BDB-9F37-9DC989D24C90}" ShortID="827693744">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Mondstadt_Medieval_44100" ID="{68E0B167-16A3-49BB-B363-FE390DA5E345}" ShortID="621795570">
+													<Language>SFX</Language>
+													<AudioFile>Mondstadt_Medieval_44100.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="147373166"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{6D1B8C23-AE79-41E3-9DFE-283978C9C87F}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{33B49CC1-9DA8-4A61-BC0A-1A47B47B4791}">
+													<ClipList>
+														<MusicClip Name="Mondstadt_Medieval_44100" ID="{7896D900-0D77-478A-A81A-A873B3AF67D3}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="116555.351473923"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Mondstadt_Medieval_44100" ID="{68E0B167-16A3-49BB-B363-FE390DA5E345}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{44F41196-DC11-46FA-BF2F-08138BE45BBA}"/>
+										<MusicCue Name="Exit Cue" ID="{4A6AF629-C04A-4D99-A5A6-558C2F36277D}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="116555.351473923"/>
+											</PropertyList>
+										</MusicCue>
+										<MusicCue Name="ExitCustom" ID="{49087BA9-3896-4303-8D61-7FC60E97016B}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="2"/>
+												<Property Name="TimeMs" Type="Real64" Value="116265.772960944"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{6A1768CC-721B-483D-8969-53C2F0D0BF7C}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{1273CDE2-4074-4F1C-9635-BD3EB2225952}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{E7E3C41B-C820-46E7-B3E8-58B4C7B9BA62}" ShortID="149816598">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+										<Property Name="PlayMode" Type="int16" Value="1"/>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="0"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{1E850009-8962-4939-8319-21FF01755E39}" ShortID="117980216">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Mondstadt_Medieval_44100" ID="{8CD53999-01EF-4264-92E5-79E618747C42}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+					</ChildrenList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{2C1BDC5C-E36F-4E9D-BDDA-BB4C35147F9A}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{99AE6B4E-58CD-4406-ACC1-5A56D181CFB7}">
+									<TransitionInfo/>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<ArgumentList>
+						<ArgumentRef Name="Game_Location" ID="{33A22C91-DFF7-4DBA-BD7F-BBED4BEA6F2F}"/>
+					</ArgumentList>
+					<EntryList>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Ancient_Era" ID="{4A53AB9C-C14D-4B9B-B28D-0381AA434AB8}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="MondstadtLeader_Ancient" ID="{59E86881-A88B-4663-B326-08717442215D}" WorkUnitID="{2CF10CB9-50C8-4C4F-B352-111AD570CC93}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Medieval_Era" ID="{48C6CCAD-9C19-4096-A4B8-2F3F7BA6F505}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="MondstadtLeader_Medieval" ID="{3F6536F7-D066-4B63-B1C5-9B99FA91B90A}" WorkUnitID="{2CF10CB9-50C8-4C4F-B352-111AD570CC93}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Industrial_era" ID="{FBA8F21F-52F2-44BC-8454-D2C404726714}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="MondstadtLeader_Industrial" ID="{B92F22EA-6C51-4A14-A5EE-016DD8EA0C10}" WorkUnitID="{2CF10CB9-50C8-4C4F-B352-111AD570CC93}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Modern_Era" ID="{0BD32746-DF04-4BDE-A447-D4A440FD51F3}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="MondstadtLeader_Atomic" ID="{596A370F-0E5F-4DFF-99ED-C81B4AAC137E}" WorkUnitID="{2CF10CB9-50C8-4C4F-B352-111AD570CC93}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+					</EntryList>
+				</MusicSwitchContainer>
+				<MusicSwitchContainer Name="CivilizationMusic_Mondstadt" ID="{AB4FCA2D-1D61-40E2-8CD6-ABF6BC519271}" ShortID="40532160">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Music Bus" ID="{1456573A-D3DD-4FB4-ABB8-5C0C78679B71}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicPlaylistContainer Name="MondstadtCiv_Ancient" ID="{D7BE9F8D-FEC4-4987-BB0D-5D7E6A9181DA}" ShortID="984017095">
+							<PropertyList>
+								<Property Name="GridFrequencyPreset" Type="int16" Value="52"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="Mondstadt_Ancient" ID="{E54BC374-136E-484C-940E-9DDC42A8088C}" ShortID="153661608">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="98077.8679173533"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Mondstadt_Ancient" ID="{D03C2F07-B192-4BA6-AFAB-DA0C50090A58}" ShortID="819374605">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Mondstadt_Ancient" ID="{32D4C4D7-796F-4974-A649-90C153B330DC}" ShortID="862482301">
+													<Language>SFX</Language>
+													<AudioFile>Mondstadt_Ancient.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{397E33A6-4A41-43B2-A61C-096407067802}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{767E0F35-49AF-4163-9A36-EAE5B8A16C32}">
+													<ClipList>
+														<MusicClip Name="Mondstadt_Ancient" ID="{14210854-EE7B-4248-A7A9-CEC49426EDDB}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="97472.4489795918"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Mondstadt_Ancient" ID="{32D4C4D7-796F-4974-A649-90C153B330DC}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{0EBA1B29-3D7E-4AD4-A4FF-A69CE8552262}"/>
+										<MusicCue Name="Exit Cue" ID="{EB36FBF8-C2F4-454B-945F-E819DDA90168}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="97472.4489795918"/>
+											</PropertyList>
+										</MusicCue>
+										<MusicCue Name="ExitCustom" ID="{BBA4E013-F8E6-4A48-8316-4470A89C69CC}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="2"/>
+												<Property Name="TimeMs" Type="Real64" Value="97230.2814044873"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+								<MusicSegment Name="ANewDayWithHope" ID="{5516376D-BC99-4850-B725-0B472E1425BB}" ShortID="411422781">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="115665.15942029"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="ANewDayWithHope" ID="{227D783C-4C91-4D14-BF49-074835DB7A35}" ShortID="1070863750">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ANewDayWithHope" ID="{0763ADBD-F907-434C-9731-45903CE4EA19}" ShortID="729003882">
+													<Language>SFX</Language>
+													<AudioFile>ANewDayWithHope.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{05E81B56-3082-48EB-9917-6E1D8FC620F4}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{001B068E-FAC1-448D-AB5C-6F23FA96B3D1}">
+													<ClipList>
+														<MusicClip Name="ANewDayWithHope" ID="{487E571C-04A6-476D-AEE5-22AC7F32ABE6}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="103226.666666667"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="ANewDayWithHope" ID="{0763ADBD-F907-434C-9731-45903CE4EA19}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{703DEC1A-9012-4D13-B3F2-972180B814CE}"/>
+										<MusicCue Name="Exit Cue" ID="{B5D3FEAA-F2C7-4BA9-B1F7-21C1A597FB51}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="103226.666666667"/>
+											</PropertyList>
+										</MusicCue>
+										<MusicCue Name="ExitCustom" ID="{E9FB6F13-08D2-4675-AA3D-91F74CF5BA45}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="2"/>
+												<Property Name="TimeMs" Type="Real64" Value="103098.434782609"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+								<MusicSegment Name="DuskInMondstadt" ID="{3ABAC0B1-6CB6-4812-9D20-3451C29C1487}" ShortID="36353112">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="124709.055393586"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="DuskInMondstadt" ID="{4C803FB9-3F80-4A4C-9EAC-434FD1FB768D}" ShortID="770358170">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="DuskInMondstadt" ID="{36F1B116-D952-4104-BBEA-328BE902E0C1}" ShortID="637053650">
+													<Language>SFX</Language>
+													<AudioFile>DuskInMondstadt.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{EBB1EE2D-C286-4238-AF29-6D2658617C28}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{DDCAD76C-A67A-45FE-B26B-D1E85406EA50}">
+													<ClipList>
+														<MusicClip Name="DuskInMondstadt" ID="{CB0DC969-C0E4-4A54-A289-4C9B06A7E89B}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="106912.448979592"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="DuskInMondstadt" ID="{36F1B116-D952-4104-BBEA-328BE902E0C1}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{CCC713AD-15A0-401A-BDDE-59D251F4A4EE}"/>
+										<MusicCue Name="Exit Cue" ID="{682D6436-4473-4CD4-B97E-4E1F8DD32262}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="106912.448979592"/>
+											</PropertyList>
+										</MusicCue>
+										<MusicCue Name="ExitCustom" ID="{C3BB0ECF-87A5-4AC8-9462-E586A2C15232}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="2"/>
+												<Property Name="TimeMs" Type="Real64" Value="106779.638483965"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+								<MusicSegment Name="EternalAnamnesis" ID="{8C2017F5-03CB-40DB-B0DA-171A4F89C81D}" ShortID="145616098">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="153147.826086957"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="EternalAnamnesis" ID="{2A74E64D-17E0-470E-B617-B395B431C9D9}" ShortID="303361909">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="EternalAnamnesis" ID="{66634066-2F1F-4B45-A0F4-CA2D8DCFDC2C}" ShortID="440185306">
+													<Language>SFX</Language>
+													<AudioFile>EternalAnamnesis.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{0F386032-7041-4BDC-8392-AAFF82F324F8}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{719106A4-67DF-4671-88F1-82D08AAF2E3A}">
+													<ClipList>
+														<MusicClip Name="EternalAnamnesis" ID="{D8863D0D-CDC0-42A9-A948-C5302526AD98}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="119000"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="EternalAnamnesis" ID="{66634066-2F1F-4B45-A0F4-CA2D8DCFDC2C}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{88DAEE81-CDE5-4676-8C49-2118B8718E08}"/>
+										<MusicCue Name="Exit Cue" ID="{56B8B204-D04C-49DA-AC37-557195AE3882}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="119000"/>
+											</PropertyList>
+										</MusicCue>
+										<MusicCue Name="ExitCustom" ID="{E6433027-366D-47E6-B717-7660F8490AFF}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="2"/>
+												<Property Name="TimeMs" Type="Real64" Value="118852.173913043"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+								<MusicSegment Name="MondstadtStarlit" ID="{01E057B0-D8CC-4E4A-8F61-5DBA72C9DCE2}" ShortID="92833743">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="68299.5303164744"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="MondstadtStarlit" ID="{4CC83DF4-A050-4164-887F-2F4C0D16C647}" ShortID="818873114">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MondstadtStarlit" ID="{7CFB460E-89E3-4B55-AA8D-D9F37E137213}" ShortID="222400468">
+													<Language>SFX</Language>
+													<AudioFile>MondstadtStarlit.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{CE8BE519-143D-4289-99FE-0EB0B6B7A377}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{29CED6E4-A430-4E21-9769-D0F94C74F39E}">
+													<ClipList>
+														<MusicClip Name="MondstadtStarlit" ID="{1888B987-5F67-4774-9D93-F7122F38960A}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="59503.3786848073"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="MondstadtStarlit" ID="{7CFB460E-89E3-4B55-AA8D-D9F37E137213}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{6CF4185E-E5DF-4F36-9D7C-9F934E9015D1}"/>
+										<MusicCue Name="Exit Cue" ID="{4408EE6B-1A83-4492-97F5-FB25D14CC74E}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="59503.3786848073"/>
+											</PropertyList>
+										</MusicCue>
+										<MusicCue Name="ExitCustom" ID="{EDC9C6B7-A383-4FB7-8BAD-B037C5718456}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="2"/>
+												<Property Name="TimeMs" Type="Real64" Value="59281.6269630005"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+								<MusicSegment Name="WayfarersPeace" ID="{5E098125-9CE3-4D07-99F1-C10853EFAD23}" ShortID="863988023">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="94216.7784679089"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="WayfarersPeace" ID="{639B0DBC-65C7-4D07-85BF-B5E9A43672CF}" ShortID="355265648">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="WayfarersPeace" ID="{7D81DA19-F1D8-4B89-A5AF-656AA03DAC28}" ShortID="23177848">
+													<Language>SFX</Language>
+													<AudioFile>WayfarersPeace.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{365B8EA6-31DD-4A1B-9FC1-07C5C68C606A}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{273C0109-032B-4768-B2C0-E4D7245B8D60}">
+													<ClipList>
+														<MusicClip Name="WayfarersPeace" ID="{A7E4A5F9-2ACA-4E86-86CB-E69EB09C38E4}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="87986.6666666667"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="WayfarersPeace" ID="{7D81DA19-F1D8-4B89-A5AF-656AA03DAC28}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{121FB426-B5A0-4140-A4C5-FBD8343EBE84}"/>
+										<MusicCue Name="Exit Cue" ID="{409E770D-54FA-4BE1-BAC4-2A834ED84A20}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="87986.6666666667"/>
+											</PropertyList>
+										</MusicCue>
+										<MusicCue Name="ExitCustom" ID="{F0EC75E2-FF71-430F-A598-E8D5C92054DC}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="2"/>
+												<Property Name="TimeMs" Type="Real64" Value="87768.066252588"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+								<MusicSegment Name="WhenceTheFlowCometh" ID="{E65D5116-74F6-416B-BBC8-9FDA5877692A}" ShortID="811591470">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="99697.8252137294"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="WhenceTheFlowCometh" ID="{2F0AEC3A-48BA-41D0-8C3B-C3AFD8DA5EE7}" ShortID="613349146">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="WhenceTheFlowCometh" ID="{3A4A3A24-BBFB-4BB7-9227-34B10B864CBB}" ShortID="86738637">
+													<Language>SFX</Language>
+													<AudioFile>WhenceTheFlowCometh.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{6FB49277-FA0F-4042-B14D-24F9C3146916}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{B7926E10-9EBA-4835-99DE-B3D3BB6B6063}">
+													<ClipList>
+														<MusicClip Name="WhenceTheFlowCometh" ID="{B7E37122-0D39-46BD-BA10-9E9D87E9BF64}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="87330.5215419501"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="WhenceTheFlowCometh" ID="{3A4A3A24-BBFB-4BB7-9227-34B10B864CBB}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{A1F21198-9B3A-4741-8566-303658BC6CA3}"/>
+										<MusicCue Name="Exit Cue" ID="{CD062EBD-08EE-417B-8439-55A73204A6C8}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="87330.5215419501"/>
+											</PropertyList>
+										</MusicCue>
+										<MusicCue Name="ExitCustom" ID="{706C5594-1F00-475C-B2E7-3397EBA9A297}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="2"/>
+												<Property Name="TimeMs" Type="Real64" Value="87113.5513020943"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+								<MusicSegment Name="DawnWinery_44100" ID="{2A6ED9E9-6F44-40B4-8E5E-A68953F31819}" ShortID="862603723">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="72766.8452557006"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="DawnWinery_44100" ID="{B747F7DC-FC4C-4C1E-8101-560F7CC93342}" ShortID="1005923474">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="DawnWinery_44100" ID="{D3D9D1D4-8F7A-40DB-B735-3965066AFE55}" ShortID="965003625">
+													<Language>SFX</Language>
+													<AudioFile>DawnWinery_44100.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{76CFC727-B4C6-4F01-A9F7-8D8D405E99F0}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{D247C802-3964-496E-A407-2992CA06DEFD}">
+													<ClipList>
+														<MusicClip Name="DawnWinery_44100" ID="{F21F1EE6-C2E9-4D2E-AE27-F6AEE652CFE4}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="66489.5691609977"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="DawnWinery_44100" ID="{D3D9D1D4-8F7A-40DB-B735-3965066AFE55}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{6BF3E320-2333-404F-8182-8A2EF968981E}"/>
+										<MusicCue Name="Exit Cue" ID="{73CBE9A4-9C49-4CBE-99B7-B009A13CD706}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="66489.5691609977"/>
+											</PropertyList>
+										</MusicCue>
+										<MusicCue Name="ExitCustom" ID="{457C9613-592C-4124-ADB0-2D00DABCB564}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="2"/>
+												<Property Name="TimeMs" Type="Real64" Value="66406.9734229095"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+								<MusicSegment Name="PureSky_44100" ID="{864E985E-75EC-4EA4-BD33-D2E7217AB445}" ShortID="38582154">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="70687.2972493345"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="PureSky_44100" ID="{DE54BF26-5FB1-4FC1-BE5F-2BCA971D02CE}" ShortID="130637903">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="PureSky_44100" ID="{2E66796F-AF78-4BC6-85FD-4293A182B143}" ShortID="853640003">
+													<Language>SFX</Language>
+													<AudioFile>PureSky_44100.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{4D11F2D8-8398-4B56-B4F8-7F8EE7AD65A7}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{BFA63E9E-BCD0-4E41-A420-630CA5A8590A}">
+													<ClipList>
+														<MusicClip Name="PureSky_44100" ID="{B0ABE669-8EDA-4A65-B31C-5FA60D2664C2}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="65632.380952381"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="PureSky_44100" ID="{2E66796F-AF78-4BC6-85FD-4293A182B143}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{C075B454-AD9D-43D6-9A7B-D240945142BA}"/>
+										<MusicCue Name="Exit Cue" ID="{4A7B3A6C-6D41-4F35-85D4-AA3A25D13CEA}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="65632.380952381"/>
+											</PropertyList>
+										</MusicCue>
+										<MusicCue Name="ExitCustom" ID="{C9CF11E9-5004-4FA5-B04A-5E354BC03988}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="2"/>
+												<Property Name="TimeMs" Type="Real64" Value="65550.8500443656"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{519C61FB-0AC3-442C-85A9-1C96F35CCF43}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{6C026F4F-0E4B-4EC0-85F9-4B4084A84E78}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{A667AA83-36D6-4812-9802-01CA5E5BCB1E}" ShortID="1029827202">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+										<Property Name="PlayMode" Type="int16" Value="3"/>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="0"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{8D14D668-8B69-466B-A6B1-935403F97E23}" ShortID="887946338">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="ANewDayWithHope" ID="{5516376D-BC99-4850-B725-0B472E1425BB}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{88C63396-923E-46F8-84AA-F235B25408F9}" ShortID="637300773">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="DuskInMondstadt" ID="{3ABAC0B1-6CB6-4812-9D20-3451C29C1487}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{C86CC349-D262-4D02-B869-2BC5A39B7965}" ShortID="861920620">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="EternalAnamnesis" ID="{8C2017F5-03CB-40DB-B0DA-171A4F89C81D}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{1DC3E667-6830-436C-80EE-B01BCE74A20C}" ShortID="156920449">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Mondstadt_Ancient" ID="{E54BC374-136E-484C-940E-9DDC42A8088C}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{3A275F62-B5EF-4C2D-8307-80CAD9CEF6BA}" ShortID="577587164">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="MondstadtStarlit" ID="{01E057B0-D8CC-4E4A-8F61-5DBA72C9DCE2}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{9350741A-172A-48BB-9F50-F514DE707E51}" ShortID="73887416">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="WayfarersPeace" ID="{5E098125-9CE3-4D07-99F1-C10853EFAD23}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{444CB8E5-4E0D-4EF3-918D-09F0F022B1B2}" ShortID="703902354">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="WhenceTheFlowCometh" ID="{E65D5116-74F6-416B-BBC8-9FDA5877692A}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{A6D665C2-74B3-42A2-A2E9-1D495AD74CD1}" ShortID="385876063">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="DawnWinery_44100" ID="{2A6ED9E9-6F44-40B4-8E5E-A68953F31819}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{5A5839C9-11DF-44C2-A0F6-19DC56E403FB}" ShortID="750014712">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="PureSky_44100" ID="{864E985E-75EC-4EA4-BD33-D2E7217AB445}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="MondstadtCiv_Medieval" ID="{5A676279-C3DB-4840-82F3-D62B45916696}" ShortID="521817074">
+							<PropertyList>
+								<Property Name="GridFrequencyPreset" Type="int16" Value="52"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="MondstadtStarlit" ID="{135B641C-CB62-4F9B-8876-CA6A0036AF01}" ShortID="168499396">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="68299.5303164744"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="MondstadtStarlit" ID="{DBD2511B-8097-4423-ADE6-8F13CB2533B8}" ShortID="728626119">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MondstadtStarlit" ID="{15812912-183B-485A-AAE3-22614DCAC153}" ShortID="976107443">
+													<Language>SFX</Language>
+													<AudioFile>MondstadtStarlit.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="222400468"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{078F4265-F26A-493D-BC39-A827973A434F}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{14BEC904-7E34-436D-9691-F915D0008547}">
+													<ClipList>
+														<MusicClip Name="MondstadtStarlit" ID="{AD677415-534E-4CDF-9D77-6B8335069117}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="59503.3786848073"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="MondstadtStarlit" ID="{15812912-183B-485A-AAE3-22614DCAC153}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{D3B32F33-63B8-46AD-ABB4-7A1669C76224}"/>
+										<MusicCue Name="Exit Cue" ID="{A2714957-E1BF-4794-8717-03332F3E3A4B}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="59503.3786848073"/>
+											</PropertyList>
+										</MusicCue>
+										<MusicCue Name="ExitCustom" ID="{75CD75EF-DF5F-4862-92D2-77BD5BE8A070}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="2"/>
+												<Property Name="TimeMs" Type="Real64" Value="59281.6269630005"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+								<MusicSegment Name="DuskInMondstadt" ID="{DA78381B-3D74-45A8-99B0-729F3CA3D65F}" ShortID="702921583">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="124709.055393586"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="DuskInMondstadt" ID="{5375D922-D19D-4BC8-8EA7-6CEAEBCBBE37}" ShortID="621745158">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="DuskInMondstadt" ID="{15B15A58-230D-45A5-978A-BF5B5761B6D0}" ShortID="752532627">
+													<Language>SFX</Language>
+													<AudioFile>DuskInMondstadt.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="637053650"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{3DB8D4EC-B648-4E35-AC73-FFCA5AC45C7D}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{5A6BF90A-2125-415B-8586-B28E6C3CCA20}">
+													<ClipList>
+														<MusicClip Name="DuskInMondstadt" ID="{A032D313-BC27-4AA2-BD2A-3CF257A4A64A}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="106912.448979592"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="DuskInMondstadt" ID="{15B15A58-230D-45A5-978A-BF5B5761B6D0}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{5389E18E-4B1C-4033-A8DB-28496710DA66}"/>
+										<MusicCue Name="Exit Cue" ID="{DE90F751-53E7-475E-BCBD-DBD959B74C26}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="106912.448979592"/>
+											</PropertyList>
+										</MusicCue>
+										<MusicCue Name="ExitCustom" ID="{66570187-DEBA-446C-8D7B-B8FA9AC617AC}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="2"/>
+												<Property Name="TimeMs" Type="Real64" Value="106779.638483965"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+								<MusicSegment Name="Mondstadt_Ancient" ID="{4822FB45-F55B-4720-B292-75F536C22150}" ShortID="546079248">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="98077.8679173533"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Mondstadt_Ancient" ID="{4CB7AB90-6867-4B0E-A93E-699A4B7962F3}" ShortID="88825406">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Mondstadt_Ancient" ID="{EF93FA61-1AB5-4D91-8BEA-676365D71C9B}" ShortID="303674110">
+													<Language>SFX</Language>
+													<AudioFile>Mondstadt_Ancient.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="862482301"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{6EA8F97B-9C4E-475D-B24F-25DE6BA195B2}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{AB940450-CEFA-4B7B-8158-AC27F965D40D}">
+													<ClipList>
+														<MusicClip Name="Mondstadt_Ancient" ID="{8CFF58DD-73BE-49A5-A145-35D4A80435C0}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="97472.4489795918"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Mondstadt_Ancient" ID="{EF93FA61-1AB5-4D91-8BEA-676365D71C9B}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{540560B7-077B-48DA-B535-6A5DCB5DB5C7}"/>
+										<MusicCue Name="Exit Cue" ID="{99A56F0C-E6D6-4D8A-8B43-5E9ACEF647FF}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="97472.4489795918"/>
+											</PropertyList>
+										</MusicCue>
+										<MusicCue Name="ExitCustom" ID="{E16A4718-6DB7-47ED-BF5C-93BD7AC04DE1}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="2"/>
+												<Property Name="TimeMs" Type="Real64" Value="97230.2814044873"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+								<MusicSegment Name="Mondstadt_Medieval_44100" ID="{9793B8F7-0CA6-4015-9D34-79F1DD478F49}" ShortID="126587928">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="147974.620132111"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Music Bus" ID="{1456573A-D3DD-4FB4-ABB8-5C0C78679B71}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Mondstadt_Medieval_44100" ID="{3B4668C6-E5E9-49D2-A22D-A544AB37A421}" ShortID="2843259">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Mondstadt_Medieval_44100" ID="{D0687A6E-BE0B-4577-A4BA-C279441E7C12}" ShortID="147373166">
+													<Language>SFX</Language>
+													<AudioFile>Mondstadt_Medieval_44100.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{0CD531CD-3D71-4A3B-9495-DDFFAB187B51}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{939895A9-43E7-4C86-ADE6-FC0E7AF63D0D}">
+													<ClipList>
+														<MusicClip Name="Mondstadt_Medieval_44100" ID="{11D54661-CD41-48ED-A390-62AADF7608A4}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="116555.351473923"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Mondstadt_Medieval_44100" ID="{D0687A6E-BE0B-4577-A4BA-C279441E7C12}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{99045B84-45DB-4589-B039-14B12BBD8226}"/>
+										<MusicCue Name="Exit Cue" ID="{9D434D27-A288-486D-867F-44E6CFA0A6F1}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="116555.351473923"/>
+											</PropertyList>
+										</MusicCue>
+										<MusicCue Name="ExitCustom" ID="{1ED00C8A-2BDE-41D1-B1DB-06CFB4955F85}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="2"/>
+												<Property Name="TimeMs" Type="Real64" Value="116265.772960944"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+								<MusicSegment Name="DawnWinery_44100" ID="{4454D519-DDD9-4E07-BF15-DC7BA9706689}" ShortID="391142669">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="72766.8452557006"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="DawnWinery_44100" ID="{D4C7BB8D-9C5B-4977-81C6-268058A27FC1}" ShortID="798368057">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="DawnWinery_44100" ID="{54199DF3-42D7-490E-ADEA-EB09469DF19A}" ShortID="692592675">
+													<Language>SFX</Language>
+													<AudioFile>DawnWinery_44100.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="965003625"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{B542E7DC-A30A-43C3-BC6D-3B75144711F1}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{3190806B-8E73-4B19-8581-6FBCC0844AD2}">
+													<ClipList>
+														<MusicClip Name="DawnWinery_44100" ID="{F8065331-94DA-4A8C-81F5-7F799093E9FC}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="66489.5691609977"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="DawnWinery_44100" ID="{54199DF3-42D7-490E-ADEA-EB09469DF19A}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{086CF092-A0A7-46A3-9FEB-139656B5E8F0}"/>
+										<MusicCue Name="Exit Cue" ID="{21E33D09-503F-4F7F-907E-8B6D4E62EB5E}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="66489.5691609977"/>
+											</PropertyList>
+										</MusicCue>
+										<MusicCue Name="ExitCustom" ID="{AE94BA88-ED38-474D-A8CC-FA91A71F293E}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="2"/>
+												<Property Name="TimeMs" Type="Real64" Value="66406.9734229095"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{9ABF77ED-B823-4CC3-9248-9571BE33A0C7}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{DDE834F5-07AF-4439-B744-7600B630A8BA}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{2C6E133A-5E91-4410-901A-E82FB12AB559}" ShortID="237415576">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+										<Property Name="PlayMode" Type="int16" Value="3"/>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="0"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{CB738408-4A20-4ED8-892C-D554B32737F7}" ShortID="562081827">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>13</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<SegmentRef Name="Mondstadt_Ancient" ID="{4822FB45-F55B-4720-B292-75F536C22150}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{1B28015C-3927-4AF8-BBFD-8FC5D0D02BB6}" ShortID="963285712">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>13</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<SegmentRef Name="DuskInMondstadt" ID="{DA78381B-3D74-45A8-99B0-729F3CA3D65F}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{3A533C9A-D7D7-44B4-9832-49CE57A36130}" ShortID="281667804">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>12</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<SegmentRef Name="MondstadtStarlit" ID="{135B641C-CB62-4F9B-8876-CA6A0036AF01}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{FCA26AB8-B1F2-4F76-9DF9-CA63041A1A6A}" ShortID="199701728">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Mondstadt_Medieval_44100" ID="{9793B8F7-0CA6-4015-9D34-79F1DD478F49}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{FB04EE27-949E-4D36-B046-A0AB257A9685}" ShortID="995630873">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>12</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<SegmentRef Name="DawnWinery_44100" ID="{4454D519-DDD9-4E07-BF15-DC7BA9706689}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="MondstadtCiv_Industrial" ID="{1C453568-5709-461E-8840-2001F6FB77CE}" ShortID="308774352">
+							<PropertyList>
+								<Property Name="GridFrequencyPreset" Type="int16" Value="52"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="Mondstadt_Industrial" ID="{97DB8CF0-A20C-4C15-AD13-D994E5363866}" ShortID="727725125">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="281973.333333333"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Mondstadt_Industrial" ID="{20873C5A-DF75-43EB-970D-A88F3189A947}" ShortID="420841087">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Mondstadt_Industrial" ID="{1014BC19-1715-469C-94BE-064ABFF73FC3}" ShortID="1024065653">
+													<Language>SFX</Language>
+													<AudioFile>Mondstadt_Industrial.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="244580365"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{755D011D-D026-4461-9C30-588CF6B56E6E}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{833309CD-0ED9-4FE8-89B5-CC3E75AF7564}">
+													<ClipList>
+														<MusicClip Name="Mondstadt_Industrial" ID="{14889406-BBC8-40FA-A79C-55B559030B6C}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="281973.333333333"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Mondstadt_Industrial" ID="{1014BC19-1715-469C-94BE-064ABFF73FC3}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{40D4210D-2499-4850-99A2-ADC11A1E4EC3}"/>
+										<MusicCue Name="Exit Cue" ID="{6438C660-810C-44F3-BCC3-2353F3C751DE}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="281973.333333333"/>
+											</PropertyList>
+										</MusicCue>
+										<MusicCue Name="ExitCustom" ID="{3CA90DBB-9C1B-49E8-AF09-E824B69FA063}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="2"/>
+												<Property Name="TimeMs" Type="Real64" Value="280922.501035197"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+								<MusicSegment Name="Mondstadt_Medieval_44100" ID="{716EFC15-5233-4256-9480-F39038D81CEC}" ShortID="929892947">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="147974.620132111"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Music Bus" ID="{1456573A-D3DD-4FB4-ABB8-5C0C78679B71}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Mondstadt_Medieval_44100" ID="{83DD0D92-B644-471A-8A26-681B693A6901}" ShortID="127220681">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Mondstadt_Medieval_44100" ID="{1EB6AC1D-C08A-451A-B52D-F4A1F8D985E8}" ShortID="786342463">
+													<Language>SFX</Language>
+													<AudioFile>Mondstadt_Medieval_44100.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="147373166"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{C51BCDA4-1C2F-40BE-9C72-D3DC18B6F6F9}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{3A65D002-2223-45FA-A7FB-BBE4F1ACB97E}">
+													<ClipList>
+														<MusicClip Name="Mondstadt_Medieval_44100" ID="{3CDA0BBA-66CD-4BDB-9BE0-81B1F077766C}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="116555.351473923"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Mondstadt_Medieval_44100" ID="{1EB6AC1D-C08A-451A-B52D-F4A1F8D985E8}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{1B094DF5-407A-4790-A535-699316432C46}"/>
+										<MusicCue Name="Exit Cue" ID="{62FE45EF-1DF3-44E6-AD73-5602D5155214}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="116555.351473923"/>
+											</PropertyList>
+										</MusicCue>
+										<MusicCue Name="ExitCustom" ID="{617FF8E3-806C-4CE0-99C8-184EA87DEAA0}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="2"/>
+												<Property Name="TimeMs" Type="Real64" Value="116265.772960944"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{35C85838-6272-4B95-A573-785706543D69}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{E20787BE-D924-4E40-A01D-A9B2D55AB303}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{6C33AE9A-B095-4742-A4EA-29DB6803AEF8}" ShortID="987759438">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+										<Property Name="PlayMode" Type="int16" Value="3"/>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="0"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{1F4EED34-1243-41B1-BA2A-2A90A5C371CA}" ShortID="923099264">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>60</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<SegmentRef Name="Mondstadt_Industrial" ID="{97DB8CF0-A20C-4C15-AD13-D994E5363866}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{E1990AA9-C5C7-453F-BC6D-A2DFB7BFE76B}" ShortID="770934869">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>40</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<SegmentRef Name="Mondstadt_Medieval_44100" ID="{716EFC15-5233-4256-9480-F39038D81CEC}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="MondstadtCiv_Atomic" ID="{0AE76D42-2886-4334-A390-1FB01FC96761}" ShortID="309435389">
+							<PropertyList>
+								<Property Name="GridFrequencyPreset" Type="int16" Value="52"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="Mondstadt_Industrial" ID="{57F9ABC3-FFD6-47C3-825B-31B15F183BD4}" ShortID="861424875">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="281973.333333333"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Mondstadt_Industrial" ID="{568B2093-D2F0-46A1-A539-7ED498EDC380}" ShortID="127309119">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Mondstadt_Industrial" ID="{20DDAF4D-9A6E-4DE6-9715-D789D4DA765C}" ShortID="244580365">
+													<Language>SFX</Language>
+													<AudioFile>Mondstadt_Industrial.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{A4F74981-62E0-40A9-AAFE-3DA5B413C328}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{EB1EF1BE-3A52-43FA-AB85-C1CE9B433D21}">
+													<ClipList>
+														<MusicClip Name="Mondstadt_Industrial" ID="{6688C545-DF71-4833-9213-BA74F5110771}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="281973.333333333"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Mondstadt_Industrial" ID="{20DDAF4D-9A6E-4DE6-9715-D789D4DA765C}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{7A6FDD95-44AE-4D5D-8E45-1892F5D63759}"/>
+										<MusicCue Name="Exit Cue" ID="{8BEAE0FD-4CEC-4868-A039-AF457F8A2EE7}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="281973.333333333"/>
+											</PropertyList>
+										</MusicCue>
+										<MusicCue Name="ExitCustom" ID="{9658A3A6-1360-4351-8235-9F08D11F7977}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="2"/>
+												<Property Name="TimeMs" Type="Real64" Value="280922.501035197"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{4FB322F7-92B5-4902-A817-ECE43AC12094}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{A3A6601E-12BD-4AD2-9EA0-9542630E0499}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{7FC8DFAA-4574-4533-AFF4-E9DB9478B52C}" ShortID="215232556">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+										<Property Name="PlayMode" Type="int16" Value="3"/>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="0"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{8EB422CB-4422-482F-B331-B68FB47E0A5E}" ShortID="128378648">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Mondstadt_Industrial" ID="{57F9ABC3-FFD6-47C3-825B-31B15F183BD4}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+					</ChildrenList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{399C2A13-791F-4722-A2E3-746F49A7FDB2}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{8CB8CFE9-DC4E-4484-AFE7-ACAA1A359798}">
+									<TransitionInfo/>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<ArgumentList>
+						<ArgumentRef Name="Game_Location" ID="{33A22C91-DFF7-4DBA-BD7F-BBED4BEA6F2F}"/>
+					</ArgumentList>
+					<EntryList>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Ancient_Era" ID="{4A53AB9C-C14D-4B9B-B28D-0381AA434AB8}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="MondstadtCiv_Ancient" ID="{D7BE9F8D-FEC4-4987-BB0D-5D7E6A9181DA}" WorkUnitID="{2CF10CB9-50C8-4C4F-B352-111AD570CC93}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Industrial_era" ID="{FBA8F21F-52F2-44BC-8454-D2C404726714}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="MondstadtCiv_Industrial" ID="{1C453568-5709-461E-8840-2001F6FB77CE}" WorkUnitID="{2CF10CB9-50C8-4C4F-B352-111AD570CC93}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Medieval_Era" ID="{48C6CCAD-9C19-4096-A4B8-2F3F7BA6F505}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="MondstadtCiv_Medieval" ID="{5A676279-C3DB-4840-82F3-D62B45916696}" WorkUnitID="{2CF10CB9-50C8-4C4F-B352-111AD570CC93}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Modern_Era" ID="{0BD32746-DF04-4BDE-A447-D4A440FD51F3}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="MondstadtCiv_Atomic" ID="{0AE76D42-2886-4334-A390-1FB01FC96761}" WorkUnitID="{2CF10CB9-50C8-4C4F-B352-111AD570CC93}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+					</EntryList>
+				</MusicSwitchContainer>
+				<MusicSwitchContainer Name="ThemeMusic_Mondstadt" ID="{371A66DB-F7CA-4D35-8AA0-062104A3DD3C}" ShortID="272634405">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Music Bus" ID="{1456573A-D3DD-4FB4-ABB8-5C0C78679B71}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicSegment Name="Mondstadt_Ancient" ID="{E0BCF94B-07B7-409D-BEE5-B45B8006340F}" ShortID="343951835">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="98077.8679173533"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Mondstadt_Ancient" ID="{77973891-2546-46A0-AACD-BC6185954FBB}" ShortID="935837171">
+									<PropertyList>
+										<Property Name="IsStreamingEnabled" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Mondstadt_Ancient" ID="{75DFB9FB-A944-4F7D-B655-3E93CC8BF2B6}" ShortID="651866176">
+											<Language>SFX</Language>
+											<AudioFile>Mondstadt_Ancient.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="862482301"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{2A367C8E-14BB-4661-9374-735EC8D900E1}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{E1FE0641-2C2D-4AF9-94CE-83E5DFC1D693}">
+											<ClipList>
+												<MusicClip Name="Mondstadt_Ancient" ID="{1223EEAD-1E13-4A1B-8263-7E7DA9773A15}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="97472.4489795918"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Mondstadt_Ancient" ID="{75DFB9FB-A944-4F7D-B655-3E93CC8BF2B6}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{02E80DDA-B3DB-4893-A100-BD08F9942C7E}"/>
+								<MusicCue Name="Exit Cue" ID="{D9317E09-C33A-4B05-990C-C5B14434209B}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="97472.4489795918"/>
+									</PropertyList>
+								</MusicCue>
+								<MusicCue Name="ExitCustom" ID="{F2E9B91F-CFE2-44D9-A05D-9AB8D0D97E33}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="2"/>
+										<Property Name="TimeMs" Type="Real64" Value="97230.2814044873"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="Mondstadt_Industrial" ID="{F7F5E121-C7FA-4ACF-8552-1433408EE8F3}" ShortID="777442654">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="281973.333333333"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Mondstadt_Industrial" ID="{9106CDC5-7412-4E7A-B9E6-D02823714A71}" ShortID="865775898">
+									<PropertyList>
+										<Property Name="IsStreamingEnabled" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Mondstadt_Industrial" ID="{F0F768FA-3646-4ADF-A59C-144E1E13E27D}" ShortID="965457920">
+											<Language>SFX</Language>
+											<AudioFile>Mondstadt_Industrial.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="244580365"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{EA4297D1-87E7-47A5-9DD5-A0DB504D0124}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{BC667232-788C-4A36-8BC4-DE536A2FA628}">
+											<ClipList>
+												<MusicClip Name="Mondstadt_Industrial" ID="{8BA8B85D-5F05-4C67-820D-E140C7DEA8EC}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="281973.333333333"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Mondstadt_Industrial" ID="{F0F768FA-3646-4ADF-A59C-144E1E13E27D}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{3B44405B-F42D-4F27-AEAA-5A3A929E335E}"/>
+								<MusicCue Name="Exit Cue" ID="{9B916223-BEDE-4A88-A18D-A7BFD7FD6647}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="281973.333333333"/>
+									</PropertyList>
+								</MusicCue>
+								<MusicCue Name="ExitCustom" ID="{09E42A41-2C2B-4470-9037-979910EE09A3}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="2"/>
+										<Property Name="TimeMs" Type="Real64" Value="280922.501035197"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="Mondstadt_Atomic" ID="{6ECE342D-E416-4F4F-AFDD-02572EECD448}" ShortID="193991656">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="281973.333333333"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Mondstadt_Industrial" ID="{233D2455-90E5-463F-B86C-DE67FA6AFD3E}" ShortID="923840961">
+									<PropertyList>
+										<Property Name="IsStreamingEnabled" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Mondstadt_Industrial" ID="{88A647F1-956E-45EE-88EF-B19C41707144}" ShortID="548884489">
+											<Language>SFX</Language>
+											<AudioFile>Mondstadt_Industrial.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="244580365"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{6B7F3A18-E3D0-4871-A319-CDE438795E08}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{48F7F856-796D-49C5-B146-D5D98ECB221E}">
+											<ClipList>
+												<MusicClip Name="Mondstadt_Industrial" ID="{D85D95ED-0EF1-427F-AA75-EB0C975422DD}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="281973.333333333"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Mondstadt_Industrial" ID="{88A647F1-956E-45EE-88EF-B19C41707144}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{D3127FAE-9A0B-408C-8708-ACC541C68A22}"/>
+								<MusicCue Name="Exit Cue" ID="{4BD02E25-F8BB-489F-9CB3-FFA73ACEAFFC}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="281973.333333333"/>
+									</PropertyList>
+								</MusicCue>
+								<MusicCue Name="ExitCustom" ID="{58B3A632-FA78-4E3C-90A4-799055ACAB8B}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="2"/>
+										<Property Name="TimeMs" Type="Real64" Value="280922.501035197"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="Mondstadt_Medieval_44100" ID="{AFA4869D-54AD-4D1A-87A4-4672F1B2A5A0}" ShortID="622289095">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="147974.620132111"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Music Bus" ID="{1456573A-D3DD-4FB4-ABB8-5C0C78679B71}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Mondstadt_Medieval_44100" ID="{B92B1DBF-29E9-49A9-84DE-6F6911799541}" ShortID="616137211">
+									<PropertyList>
+										<Property Name="IsStreamingEnabled" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Mondstadt_Medieval_44100" ID="{BAD070FB-B925-4E8F-8476-B5F6D1D4340B}" ShortID="596537896">
+											<Language>SFX</Language>
+											<AudioFile>Mondstadt_Medieval_44100.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="147373166"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{A73F2354-8DD9-418A-A896-FAED01E45AE3}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{79CD2544-8375-4A89-94E3-EF3B379876B9}">
+											<ClipList>
+												<MusicClip Name="Mondstadt_Medieval_44100" ID="{5573AD31-CDA6-4A03-9E0E-D94BC46411A8}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="116555.351473923"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Mondstadt_Medieval_44100" ID="{BAD070FB-B925-4E8F-8476-B5F6D1D4340B}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{DA5394F9-EBCC-46D1-8A72-B1F5330A581E}"/>
+								<MusicCue Name="Exit Cue" ID="{9DAD6059-590A-416F-9630-6868C36E6F3D}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="116555.351473923"/>
+									</PropertyList>
+								</MusicCue>
+								<MusicCue Name="ExitCustom" ID="{7C5C6760-42BC-4989-9984-DCC0D190DCFF}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="2"/>
+										<Property Name="TimeMs" Type="Real64" Value="116265.772960944"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+					</ChildrenList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{8F3FA957-AD97-4F21-9FCC-A84D33B2406D}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{24520EE3-C7E9-40B4-A59C-58F8512657E0}">
+									<TransitionInfo/>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<ArgumentList>
+						<ArgumentRef Name="Game_Location" ID="{33A22C91-DFF7-4DBA-BD7F-BBED4BEA6F2F}"/>
+					</ArgumentList>
+					<EntryList>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Ancient_Era" ID="{4A53AB9C-C14D-4B9B-B28D-0381AA434AB8}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="Mondstadt_Ancient" ID="{E0BCF94B-07B7-409D-BEE5-B45B8006340F}" WorkUnitID="{2CF10CB9-50C8-4C4F-B352-111AD570CC93}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Industrial_era" ID="{FBA8F21F-52F2-44BC-8454-D2C404726714}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="Mondstadt_Industrial" ID="{F7F5E121-C7FA-4ACF-8552-1433408EE8F3}" WorkUnitID="{2CF10CB9-50C8-4C4F-B352-111AD570CC93}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Medieval_Era" ID="{48C6CCAD-9C19-4096-A4B8-2F3F7BA6F505}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="Mondstadt_Medieval_44100" ID="{AFA4869D-54AD-4D1A-87A4-4672F1B2A5A0}" WorkUnitID="{2CF10CB9-50C8-4C4F-B352-111AD570CC93}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Modern_Era" ID="{0BD32746-DF04-4BDE-A447-D4A440FD51F3}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="Mondstadt_Atomic" ID="{6ECE342D-E416-4F4F-AFDD-02572EECD448}" WorkUnitID="{2CF10CB9-50C8-4C4F-B352-111AD570CC93}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+					</EntryList>
+				</MusicSwitchContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</InteractiveMusic>
+</WwiseDocument>

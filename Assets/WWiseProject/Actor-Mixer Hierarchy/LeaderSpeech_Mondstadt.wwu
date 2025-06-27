@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{048AE7AB-B3DB-4825-9B4C-5DDE80B87767}" SchemaVersion="70">
+	<AudioObjects>
+		<WorkUnit Name="LeaderSpeech_Mondstadt" ID="{048AE7AB-B3DB-4825-9B4C-5DDE80B87767}" PersistMode="Standalone">
+			<ChildrenList>
+				<ActorMixer Name="id88602518" ID="{F76D226B-E8A1-4BB3-BE3A-90CCD40A5614}" ShortID="88602518">
+					<PropertyList>
+						<Property Name="DivergenceCenter" Type="int32">
+							<ValueList>
+								<Value>100</Value>
+							</ValueList>
+						</Property>
+						<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+						<Property Name="MaxSoundPerInstance" Type="int16">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="UseMaxSoundPerInstance" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="LeaderSpeech" ID="{DD9801A4-ECD4-4536-AEC3-24C4630BB45F}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Speech Bus" ID="{EE6F9EC0-28C3-430E-B0F5-A9DE4CB5D006}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<ActorMixer Name="id854467727" ID="{DC6A8588-A87C-4BBB-82CB-4FC9D666EAB9}" ShortID="854467727">
+							<PropertyList>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UserAuxSendVolume0" Type="Real64">
+									<ValueList>
+										<Value>-11</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="Reverb_Leader_Scene" ID="{5E28702E-D128-4905-BDC0-FD571754AD45}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<ActorMixer Name="id424381547" ID="{E0C18500-9AAB-481C-84FF-BB380CDE99B5}" ShortID="424381547">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<ActorMixer Name="KleeSpeech" ID="{28ADE477-CA3F-46CA-98DA-C06999864D78}" ShortID="314116957">
+											<PropertyList>
+												<Property Name="DivergenceCenter" Type="int32">
+													<ValueList>
+														<Value>100</Value>
+													</ValueList>
+												</Property>
+												<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+												<Property Name="MaxSoundPerInstance" Type="int16">
+													<ValueList>
+														<Value>1</Value>
+													</ValueList>
+												</Property>
+												<Property Name="UseMaxSoundPerInstance" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>-11</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Reverb_Leader_Scene" ID="{5E28702E-D128-4905-BDC0-FD571754AD45}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="MOST_KL_DECLARE_WAR_A" ID="{5AE93DAD-EB87-470B-AFBE-38022325DDA8}" ShortID="925476542" Type="SoundFX">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="MOST_KL_DECLARE_WAR_A" ID="{A7A19B16-6E2B-4542-87F8-6C22033F6746}" ShortID="292861037">
+															<Language>SFX</Language>
+															<AudioFile>MOST_KL_DECLARE_WAR_A.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="MOST_KL_DECLARE_WAR_A" ID="{A7A19B16-6E2B-4542-87F8-6C22033F6746}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="MOST_KL_DECLARE_WAR_FROM_AI_A" ID="{FBDE3F95-C9C3-48F1-B8DF-E7B95803E84D}" ShortID="824005745" Type="SoundFX">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="MOST_KL_DECLARE_WAR_FROM_AI_A" ID="{46F6BC7B-16E5-4F6D-9102-507C3D38F4C3}" ShortID="120180067">
+															<Language>SFX</Language>
+															<AudioFile>MOST_KL_DECLARE_WAR_FROM_AI_A.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="MOST_KL_DECLARE_WAR_FROM_AI_A" ID="{46F6BC7B-16E5-4F6D-9102-507C3D38F4C3}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="MOST_KL_DEFEAT_A" ID="{1517AC17-D51E-47FF-80EA-30D78377CBE4}" ShortID="964987277" Type="SoundFX">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="MOST_KL_DEFEAT_A" ID="{4D01355E-E756-4463-A654-29FE828D811E}" ShortID="950869858">
+															<Language>SFX</Language>
+															<AudioFile>MOST_KL_DEFEAT_A.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="MOST_KL_DEFEAT_A" ID="{4D01355E-E756-4463-A654-29FE828D811E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="MOST_KL_FIRST_MEET_A" ID="{F32CA6AC-8AAD-41A4-AE3C-41069B03418C}" ShortID="401957026" Type="SoundFX">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="MOST_KL_FIRST_MEET_A" ID="{A8C2E2BA-5D29-419D-BCE0-8ADD087EC0AC}" ShortID="712189090">
+															<Language>SFX</Language>
+															<AudioFile>MOST_KL_FIRST_MEET_A.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="MOST_KL_FIRST_MEET_A" ID="{A8C2E2BA-5D29-419D-BCE0-8ADD087EC0AC}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="MOST_KL_KUDOS_A" ID="{B5A70D52-C3B9-4135-AD84-3B7013BE85FE}" ShortID="452395177" Type="SoundFX">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="MOST_KL_KUDOS_A" ID="{C9F1C129-7C9F-4EB5-9B7D-C379C5DE58A6}" ShortID="430932878">
+															<Language>SFX</Language>
+															<AudioFile>MOST_KL_KUDOS.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="MOST_KL_KUDOS_A" ID="{C9F1C129-7C9F-4EB5-9B7D-C379C5DE58A6}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="MOST_KL_MISC_PEP_TALK_A" ID="{58333C96-AD77-47CB-908D-71AA254A9D45}" ShortID="304329878" Type="SoundFX">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="MOST_KL_MISC_PEP_TALK_A" ID="{72CC1757-4B9D-495C-8592-1E5DEE9CEB07}" ShortID="393436800">
+															<Language>SFX</Language>
+															<AudioFile>MOST_KL_MISC_PEP_TALK_A.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="MOST_KL_MISC_PEP_TALK_A" ID="{72CC1757-4B9D-495C-8592-1E5DEE9CEB07}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="MOST_KL_WARNING_A" ID="{B2DCF4A2-CCFB-44D1-811E-0C15D5C42B12}" ShortID="1014539760" Type="SoundFX">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="MOST_KL_WARNING_A" ID="{64509550-E7DB-4820-9DC0-D00B147EFAE7}" ShortID="268881426">
+															<Language>SFX</Language>
+															<AudioFile>MOST_KL_WARNING_A.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="MOST_KL_WARNING_A" ID="{64509550-E7DB-4820-9DC0-D00B147EFAE7}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</ActorMixer>
+									</ChildrenList>
+								</ActorMixer>
+							</ChildrenList>
+						</ActorMixer>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

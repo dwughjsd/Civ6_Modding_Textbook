@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="10" SoundbankVersion="113">
+	<RootPaths>
+		<ProjectRoot>D:\Admin\Documents\GitHub\Civ6_Modding_Textbook\WWiseProject\FelineJasperKitty\</ProjectRoot>
+		<SourceFilesRoot>D:\Admin\Documents\GitHub\Civ6_Modding_Textbook\WWiseProject\FelineJasperKitty\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\Admin\Documents\GitHub\Civ6_Modding_Textbook\WWiseProject\FelineJasperKitty\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>D:\Admin\Documents\GitHub\Civ6_Modding_Textbook\WWiseProject\FelineJasperKitty\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<SoundBanks>
+		<SoundBank Id="2724182278" Language="SFX">
+			<ShortName>Feline_JasperKitty_Music_Bank</ShortName>
+			<Path>Feline_JasperKitty_Music_Bank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1631354817" Name="Pause_Music_FELINE"/>
+				<Event Id="491470805" Name="Play_Leader_Music_FELINE"/>
+				<Event Id="4206318687" Name="Play_Music_FELINE"/>
+				<Event Id="1028717618" Name="Resume_Music_FELINE"/>
+				<Event Id="1054065463" Name="Start_Music_FELINE"/>
+				<Event Id="623116723" Name="Stop_Leader_Music_FELINE"/>
+				<Event Id="2421564217" Name="Stop_Music_FELINE"/>
+			</IncludedEvents>
+			<ReferencedStreamedFiles>
+				<File Id="10630958" Language="SFX">
+					<ShortName>FelineAmbient1.wav</ShortName>
+					<Path>SFX\FelineAmbient1_17C11484.wem</Path>
+				</File>
+				<File Id="194593380" Language="SFX">
+					<ShortName>FelineAmbient2.wav</ShortName>
+					<Path>SFX\FelineAmbient2_17C11484.wem</Path>
+				</File>
+				<File Id="339468793" Language="SFX">
+					<ShortName>Feline_Medieval.wav</ShortName>
+					<Path>SFX\Feline_Medieval_17C11484.wem</Path>
+				</File>
+				<File Id="472695686" Language="SFX">
+					<ShortName>Feline_Industrial.wav</ShortName>
+					<Path>SFX\Feline_Industrial_17C11484.wem</Path>
+				</File>
+				<File Id="866409320" Language="SFX">
+					<ShortName>Feline_Atomic.wav</ShortName>
+					<Path>SFX\Feline_Atomic_17C11484.wem</Path>
+				</File>
+				<File Id="889611208" Language="SFX">
+					<ShortName>Feline_Ancient.wav</ShortName>
+					<Path>SFX\Feline_Ancient_17C11484.wem</Path>
+				</File>
+			</ReferencedStreamedFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

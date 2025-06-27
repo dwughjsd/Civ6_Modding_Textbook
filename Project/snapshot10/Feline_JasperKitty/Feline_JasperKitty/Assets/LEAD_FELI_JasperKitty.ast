@@ -192,7 +192,7 @@
 								<m_eType>SOUND</m_eType>
 								<m_Name text="4"/>
 								<m_Description text=""/>
-								<m_FXName text="FELI_JK_KUDOS"/>
+								<m_FXName text="FELI_JK_KUDOS_A"/>
 								<m_CollectionName text=""/>
 								<m_AttachmentPointName text=""/>
 								<m_fStartTime>0.500000</m_fStartTime>

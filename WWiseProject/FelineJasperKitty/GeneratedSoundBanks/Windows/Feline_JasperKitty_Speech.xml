@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="10" SoundbankVersion="113">
+	<RootPaths>
+		<ProjectRoot>D:\Admin\Documents\GitHub\Civ6_Modding_Textbook\WWiseProject\FelineJasperKitty\</ProjectRoot>
+		<SourceFilesRoot>D:\Admin\Documents\GitHub\Civ6_Modding_Textbook\WWiseProject\FelineJasperKitty\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\Admin\Documents\GitHub\Civ6_Modding_Textbook\WWiseProject\FelineJasperKitty\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>D:\Admin\Documents\GitHub\Civ6_Modding_Textbook\WWiseProject\FelineJasperKitty\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<SoundBanks>
+		<SoundBank Id="1372285738" Language="SFX">
+			<ShortName>Feline_JasperKitty_Speech</ShortName>
+			<Path>Feline_JasperKitty_Speech.bnk</Path>
+			<IncludedEvents>
+				<Event Id="4009655763" Name="FELI_JK_DECLARE_WAR_A"/>
+				<Event Id="4084599295" Name="FELI_JK_DECLARE_WAR_FROM_AI_A"/>
+				<Event Id="3618960531" Name="FELI_JK_DEFEAT_A"/>
+				<Event Id="4178292850" Name="FELI_JK_FIRST_MEET_A"/>
+				<Event Id="2050459976" Name="FELI_JK_KUDOS_A"/>
+				<Event Id="2929694265" Name="FELI_JK_MISC_PEP_TALK_A"/>
+				<Event Id="1855368746" Name="FELI_JK_WARNING_A"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="151157277" Language="SFX">
+					<ShortName>FELI_JK_KUDOS_A.wav</ShortName>
+					<Path>SFX\FELI_JK_KUDOS_A_B93921CF.wem</Path>
+				</File>
+				<File Id="223917733" Language="SFX">
+					<ShortName>FELI_JK_MISC_PEP_TALK_A.wav</ShortName>
+					<Path>SFX\FELI_JK_MISC_PEP_TALK_A_B93921CF.wem</Path>
+				</File>
+				<File Id="309539452" Language="SFX">
+					<ShortName>FELI_JK_DECLARE_WAR_FROM_AI_A.wav</ShortName>
+					<Path>SFX\FELI_JK_DECLARE_WAR_FROM_AI_A_B93921CF.wem</Path>
+				</File>
+				<File Id="535551389" Language="SFX">
+					<ShortName>FELI_JK_FIRST_MEET_A.wav</ShortName>
+					<Path>SFX\FELI_JK_FIRST_MEET_A_B93921CF.wem</Path>
+				</File>
+				<File Id="695543262" Language="SFX">
+					<ShortName>FELI_JK_WARNING_A.wav</ShortName>
+					<Path>SFX\FELI_JK_WARNING_A_B93921CF.wem</Path>
+				</File>
+				<File Id="782878541" Language="SFX">
+					<ShortName>FELI_JK_DECLARE_WAR_A.wav</ShortName>
+					<Path>SFX\FELI_JK_DECLARE_WAR_A_B93921CF.wem</Path>
+				</File>
+				<File Id="832139777" Language="SFX">
+					<ShortName>FELI_JK_DEFEAT_A.wav</ShortName>
+					<Path>SFX\FELI_JK_DEFEAT_A_B93921CF.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

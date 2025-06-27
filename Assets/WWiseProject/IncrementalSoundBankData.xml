@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<IncrementalBankBuild Version="4" Flags="923457668">
+	<Platform GUID="{A982C542-EECB-4019-9995-C96580B53034}">
+		<Language ID="0">
+			<Bank Name="Init" Hash="2745864310" StreamHash="157587662" Timestamp="133149793100848948"/>
+			<Bank Name="Mondstadt_Music_Bank" Hash="2821694265" StreamHash="3047411368" Timestamp="133149793100798333"/>
+			<Bank Name="Mondstadt_Speech" Hash="664911023" StreamHash="157587662" Timestamp="133123744940511982"/>
+		</Language>
+	</Platform>
+	<Platform GUID="{0AB3F1FB-A797-4246-9083-9007FB2D0EAF}">
+		<Language ID="0">
+			<Bank Name="Init" Hash="396578305" StreamHash="157587662" Timestamp="133123732180722463"/>
+			<Bank Name="Mondstadt_Music_Bank" Hash="3759285704" StreamHash="2644729052" Timestamp="133123732180665935"/>
+		</Language>
+	</Platform>
+</IncrementalBankBuild>

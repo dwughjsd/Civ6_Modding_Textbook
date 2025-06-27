@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{95775847-AF23-4A2E-8149-AB2F9FF0E76C}" SchemaVersion="70">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{95775847-AF23-4A2E-8149-AB2F9FF0E76C}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Feline_JasperKitty_Music_Bank" ID="{D878FCA0-3777-4504-A9D5-2C6B493DF598}">
+					<ObjectInclusionList>
+						<ObjectRef Name="id658623902_DO_NOT_TOUCH" ID="{26984207-93E3-44FE-982A-510A9615FD4A}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}" Filter="2" Origin="Manual"/>
+						<ObjectRef Name="Resume_Music_FELINE" ID="{DB8E5317-CEA8-4ACC-A7F8-F23E9C79E34C}" WorkUnitID="{7714AC88-E6F9-45FF-96C4-AA07F75D3FE9}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="ThemeMusic_Feline" ID="{74BDFB1F-0D1A-4BC0-A09A-2E28EC8C34F7}" WorkUnitID="{2CF10CB9-50C8-4C4F-B352-111AD570CC93}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="LeaderMusic_Feline" ID="{D203023F-5EC0-441C-BB68-5943CEB1B975}" WorkUnitID="{2CF10CB9-50C8-4C4F-B352-111AD570CC93}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Stop_Leader_Music_FELINE" ID="{7F17623F-5F19-4087-8C0F-CBF6F6BA4348}" WorkUnitID="{7714AC88-E6F9-45FF-96C4-AA07F75D3FE9}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="CivilizationMusic_Feline" ID="{9C0BD565-6E68-416B-9D8E-051EBFC5D444}" WorkUnitID="{2CF10CB9-50C8-4C4F-B352-111AD570CC93}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Start_Music_FELINE" ID="{9F6CD2BB-2C6E-49A6-975A-B19728FFF716}" WorkUnitID="{7714AC88-E6F9-45FF-96C4-AA07F75D3FE9}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Music_FELINE" ID="{6ADE94D7-C931-438F-82FF-E028A6D7B9E1}" WorkUnitID="{7714AC88-E6F9-45FF-96C4-AA07F75D3FE9}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Leader_Music_FELINE" ID="{C1B135E4-F44F-4C0B-BB1B-EAC3A7DD4ADC}" WorkUnitID="{7714AC88-E6F9-45FF-96C4-AA07F75D3FE9}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Pause_Music_FELINE" ID="{D3BB08E9-7B1D-49B6-A52D-E28B1798517D}" WorkUnitID="{7714AC88-E6F9-45FF-96C4-AA07F75D3FE9}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Stop_Music_FELINE" ID="{2FA844EB-CEC5-4DF6-A256-1C7131C6F5E2}" WorkUnitID="{7714AC88-E6F9-45FF-96C4-AA07F75D3FE9}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Feline_JasperKitty_Speech" ID="{A6FBD96B-0622-4D64-A9C7-E3F9378E9F51}">
+					<ObjectInclusionList>
+						<ObjectRef Name="FELI_JK_FIRST_MEET_A" ID="{EDBEA108-A4AC-49C6-98BC-71BC6177CA49}" WorkUnitID="{7714AC88-E6F9-45FF-96C4-AA07F75D3FE9}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="FELI_JK_DECLARE_WAR_FROM_AI_A" ID="{D36C052D-11B0-4905-B459-1A0B839D29F7}" WorkUnitID="{7714AC88-E6F9-45FF-96C4-AA07F75D3FE9}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="FELI_JK_KUDOS_A" ID="{A74B5882-0781-4746-8975-D0FBF745BBD1}" WorkUnitID="{7714AC88-E6F9-45FF-96C4-AA07F75D3FE9}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="FELI_JK_DECLARE_WAR_A" ID="{15332585-6DA6-4E6F-8AB0-34D2CA56447B}" WorkUnitID="{7714AC88-E6F9-45FF-96C4-AA07F75D3FE9}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="FELI_JK_MISC_PEP_TALK_A" ID="{E67A0AA5-CC11-441D-B62B-5483C22EE143}" WorkUnitID="{7714AC88-E6F9-45FF-96C4-AA07F75D3FE9}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="FELI_JK_DEFEAT_A" ID="{81B9ACAD-347A-43E6-ADA9-B4A6AD437199}" WorkUnitID="{7714AC88-E6F9-45FF-96C4-AA07F75D3FE9}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="FELI_JK_WARNING_A" ID="{1E9963D1-DDF1-431E-8884-A21FE0578FBA}" WorkUnitID="{7714AC88-E6F9-45FF-96C4-AA07F75D3FE9}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="JasperKittySpeech" ID="{11598BE4-9CCE-4832-B466-2BB943CA5C0C}" WorkUnitID="{048AE7AB-B3DB-4825-9B4C-5DDE80B87767}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

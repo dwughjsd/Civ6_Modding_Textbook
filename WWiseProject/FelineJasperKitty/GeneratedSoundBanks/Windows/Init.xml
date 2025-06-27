@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="10" SoundbankVersion="113">
+	<RootPaths>
+		<ProjectRoot>D:\Admin\Documents\GitHub\Civ6_Modding_Textbook\WWiseProject\FelineJasperKitty\</ProjectRoot>
+		<SourceFilesRoot>D:\Admin\Documents\GitHub\Civ6_Modding_Textbook\WWiseProject\FelineJasperKitty\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\Admin\Documents\GitHub\Civ6_Modding_Textbook\WWiseProject\FelineJasperKitty\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>D:\Admin\Documents\GitHub\Civ6_Modding_Textbook\WWiseProject\FelineJasperKitty\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

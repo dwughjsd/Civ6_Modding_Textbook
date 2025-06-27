@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{048AE7AB-B3DB-4825-9B4C-5DDE80B87767}" SchemaVersion="70">
+	<AudioObjects>
+		<WorkUnit Name="LeaderSpeech_Feline" ID="{048AE7AB-B3DB-4825-9B4C-5DDE80B87767}" PersistMode="Standalone">
+			<ChildrenList>
+				<ActorMixer Name="id88602518" ID="{F76D226B-E8A1-4BB3-BE3A-90CCD40A5614}" ShortID="88602518">
+					<PropertyList>
+						<Property Name="DivergenceCenter" Type="int32">
+							<ValueList>
+								<Value>100</Value>
+							</ValueList>
+						</Property>
+						<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+						<Property Name="MaxSoundPerInstance" Type="int16">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="UseMaxSoundPerInstance" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="LeaderSpeech" ID="{DD9801A4-ECD4-4536-AEC3-24C4630BB45F}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Speech Bus" ID="{EE6F9EC0-28C3-430E-B0F5-A9DE4CB5D006}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<ActorMixer Name="id854467727" ID="{DC6A8588-A87C-4BBB-82CB-4FC9D666EAB9}" ShortID="854467727">
+							<PropertyList>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UserAuxSendVolume0" Type="Real64">
+									<ValueList>
+										<Value>-11</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="Reverb_Leader_Scene" ID="{5E28702E-D128-4905-BDC0-FD571754AD45}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<ActorMixer Name="id424381547" ID="{E0C18500-9AAB-481C-84FF-BB380CDE99B5}" ShortID="424381547">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<ActorMixer Name="JasperKittySpeech" ID="{11598BE4-9CCE-4832-B466-2BB943CA5C0C}" ShortID="439127735">
+											<PropertyList>
+												<Property Name="DivergenceCenter" Type="int32">
+													<ValueList>
+														<Value>100</Value>
+													</ValueList>
+												</Property>
+												<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+												<Property Name="MaxSoundPerInstance" Type="int16">
+													<ValueList>
+														<Value>1</Value>
+													</ValueList>
+												</Property>
+												<Property Name="UseMaxSoundPerInstance" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>-11</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Reverb_Leader_Scene" ID="{5E28702E-D128-4905-BDC0-FD571754AD45}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="FELI_JK_DECLARE_WAR_A" ID="{6E3D51F4-5A0D-4F78-86A5-01DD348C611C}" ShortID="730583049" Type="SoundFX">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="FELI_JK_DECLARE_WAR_A" ID="{030D99C9-AFB9-497D-9BC2-CB11A7F55FF1}" ShortID="782878541">
+															<Language>SFX</Language>
+															<AudioFile>FELI_JK_DECLARE_WAR_A.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="FELI_JK_DECLARE_WAR_A" ID="{030D99C9-AFB9-497D-9BC2-CB11A7F55FF1}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="FELI_JK_DECLARE_WAR_FROM_AI_A" ID="{C028CCE2-4DA5-4A91-A7E2-7BAC3CEC4D15}" ShortID="95693990" Type="SoundFX">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="FELI_JK_DECLARE_WAR_FROM_AI_A" ID="{C8805CA1-E23D-406E-B195-DACFBBE890E5}" ShortID="309539452">
+															<Language>SFX</Language>
+															<AudioFile>FELI_JK_DECLARE_WAR_FROM_AI_A.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="FELI_JK_DECLARE_WAR_FROM_AI_A" ID="{C8805CA1-E23D-406E-B195-DACFBBE890E5}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="FELI_JK_DEFEAT_A" ID="{FE00CA75-4058-420D-ABD4-F023D8F11173}" ShortID="698645137" Type="SoundFX">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="FELI_JK_DEFEAT_A" ID="{596FE99E-8D04-4829-9950-00BA7BFD93B6}" ShortID="832139777">
+															<Language>SFX</Language>
+															<AudioFile>FELI_JK_DEFEAT_A.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="FELI_JK_DEFEAT_A" ID="{596FE99E-8D04-4829-9950-00BA7BFD93B6}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="FELI_JK_FIRST_MEET_A" ID="{3EB12BFF-89EA-4EFF-B0FA-C33E4381B6AA}" ShortID="255977788" Type="SoundFX">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="FELI_JK_FIRST_MEET_A" ID="{A7FE1E25-1FA4-4AF7-A9FE-06B83162DA87}" ShortID="535551389">
+															<Language>SFX</Language>
+															<AudioFile>FELI_JK_FIRST_MEET_A.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="FELI_JK_FIRST_MEET_A" ID="{A7FE1E25-1FA4-4AF7-A9FE-06B83162DA87}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="FELI_JK_KUDOS_A" ID="{1BA9793F-968B-452F-A8AD-D357C4B99503}" ShortID="272239697" Type="SoundFX">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="FELI_JK_KUDOS_A" ID="{5A1209A3-F16B-4B50-8985-C094AB4137D0}" ShortID="151157277">
+															<Language>SFX</Language>
+															<AudioFile>FELI_JK_KUDOS_A.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="FELI_JK_KUDOS_A" ID="{5A1209A3-F16B-4B50-8985-C094AB4137D0}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="FELI_JK_MISC_PEP_TALK_A" ID="{F91127DC-0588-4EC3-8FFA-5FEAA4934355}" ShortID="238723927" Type="SoundFX">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="FELI_JK_MISC_PEP_TALK_A" ID="{6792E08F-F4A6-4E60-BF4F-330D3DE42062}" ShortID="223917733">
+															<Language>SFX</Language>
+															<AudioFile>FELI_JK_MISC_PEP_TALK_A.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="FELI_JK_MISC_PEP_TALK_A" ID="{6792E08F-F4A6-4E60-BF4F-330D3DE42062}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="FELI_JK_WARNING_A" ID="{F51B2C09-2DBF-4609-9779-1753208571FF}" ShortID="773630776" Type="SoundFX">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="FELI_JK_WARNING_A" ID="{FA84971C-58E0-4C4A-9E6D-A36E307D42A1}" ShortID="695543262">
+															<Language>SFX</Language>
+															<AudioFile>FELI_JK_WARNING_A.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="FELI_JK_WARNING_A" ID="{FA84971C-58E0-4C4A-9E6D-A36E307D42A1}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</ActorMixer>
+									</ChildrenList>
+								</ActorMixer>
+							</ChildrenList>
+						</ActorMixer>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

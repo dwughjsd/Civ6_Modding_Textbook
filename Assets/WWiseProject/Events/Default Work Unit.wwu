@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7714AC88-E6F9-45FF-96C4-AA07F75D3FE9}" SchemaVersion="70">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{7714AC88-E6F9-45FF-96C4-AA07F75D3FE9}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Music" ID="{0C7A6099-743A-4645-A32E-6D31D45C6805}" ShortID="72871508">
+					<ChildrenList>
+						<Event Name="Stop_Music_MONDSTADT" ID="{13CB99CC-D924-4966-A97A-053B487707BC}">
+							<ChildrenList>
+								<Action Name="Stop" ID="{9D0C40AB-0556-4508-88F6-9A8D59C6A274}" ShortID="215393615" Type="Stop" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="FadeCurve" Type="int16" Value="6"/>
+										<Property Name="FadeTime" Type="Real64" Value="3"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{71E6E823-3684-49F5-974A-3F383682481D}" Global="false">
+											<ObjectRef Name="id552184141" ID="{E44453EE-DDD6-462A-A8CC-558B6327246F}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{992E1B00-574F-435D-9833-F4ED2B4AF37D}" ShortID="794179457" Type="Stop" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{913F38CB-BC29-4824-9361-FA8E443E0782}" Global="false">
+											<ObjectRef Name="id308673578" ID="{89961607-AA9D-43BD-A81B-3A542E4D15D9}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{C1042A34-B35E-4F99-A869-BDE242DC261A}" ShortID="605139056" Type="Stop" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{CD481494-9707-46FF-91C9-E16A6BA4032B}" Global="false">
+											<ObjectRef Name="CivilizationMusic_Mondstadt" ID="{AB4FCA2D-1D61-40E2-8CD6-ABF6BC519271}" WorkUnitID="{2CF10CB9-50C8-4C4F-B352-111AD570CC93}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{1031AEE9-690C-4110-8200-A0E0738A01D8}" ShortID="967204468" Type="Stop" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{E59E3FE0-85A6-40C7-995D-CDC6EFCE9733}" Global="false">
+											<ObjectRef Name="LeaderMusic_Mondstadt" ID="{8A7ED622-4362-48B0-9249-4D6C2E59EAE9}" WorkUnitID="{2CF10CB9-50C8-4C4F-B352-111AD570CC93}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{A56168BC-1C8C-4685-B97E-840ABB7C1469}" ShortID="37713901" Type="Stop" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{EB216458-021C-48C0-B5E3-FE8A7AC3D73B}" Global="false">
+											<ObjectRef Name="ThemeMusic_Mondstadt" ID="{371A66DB-F7CA-4D35-8AA0-062104A3DD3C}" WorkUnitID="{2CF10CB9-50C8-4C4F-B352-111AD570CC93}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Music_MONDSTADT" ID="{4F9BD20E-F925-409C-A155-D1271CD7355E}">
+							<ChildrenList>
+								<Action Name="Stop" ID="{4457ADCC-213B-4909-B49B-F535EEA6A5BE}" ShortID="316022454" Type="Stop" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="3"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{9746EF28-D43B-4519-BDC4-C974C6917B5E}" Global="true">
+											<ObjectRef Name="id552184141" ID="{E44453EE-DDD6-462A-A8CC-558B6327246F}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{FA507925-4222-47DA-8769-16D0FBE35ED3}" ShortID="826682793" Type="Stop" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="3"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{33D5C4D3-3E50-4985-812D-A16802B6AF1D}" Global="true">
+											<ObjectRef Name="id276876398" ID="{12502761-32C7-4DD1-A722-6AAF0B793791}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Play" ID="{7740E74F-B153-49F1-90C6-9BB76A7655E4}" ShortID="325343957" Type="Play" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="2.5"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{5676ED93-3616-4F06-AAA8-F8D781F8D708}" Global="false">
+											<ObjectRef Name="CivilizationMusic_Mondstadt" ID="{AB4FCA2D-1D61-40E2-8CD6-ABF6BC519271}" WorkUnitID="{2CF10CB9-50C8-4C4F-B352-111AD570CC93}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{55B534C3-6061-4843-B699-5E1820A36BF7}" ShortID="838257522" Type="Stop" Scope="One" Global="true">
+									<ElementList>
+										<Element ID="{77C1EE9B-82ED-432E-9573-7D38DB9A848C}" Global="true">
+											<ObjectRef Name="id409025991" ID="{513C560C-5E28-4E40-9CB4-D388D0A6C444}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Resume_Music_MONDSTADT" ID="{67101937-6FD9-4D64-A7E5-863D68E01876}">
+							<ChildrenList>
+								<Action Name="Resume" ID="{F2967947-9CC2-42D0-AA9C-06ED2A6EC61C}" ShortID="801938498" Type="Resume" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+										<Property Name="FadeTime" Type="Real64" Value="2"/>
+										<Property Name="MasterResume" Type="bool" Value="True"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{C7C3F6E2-9145-41D4-9734-30C8094E9401}" Global="true">
+											<ObjectRef Name="id552184141" ID="{E44453EE-DDD6-462A-A8CC-558B6327246F}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Resume" ID="{8E0B1E7E-1001-497D-9082-AD13CF84F19B}" ShortID="937756918" Type="Resume" Scope="One" Global="true">
+									<ElementList>
+										<Element ID="{2B8F1D85-DFC6-4243-928D-C6EA5B086DC3}" Global="true">
+											<ObjectRef Name="CivilizationMusic_Mondstadt" ID="{AB4FCA2D-1D61-40E2-8CD6-ABF6BC519271}" WorkUnitID="{2CF10CB9-50C8-4C4F-B352-111AD570CC93}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Resume" ID="{33BD3C38-C89A-4725-8482-4754C3E9F29A}" ShortID="377807928" Type="Resume" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="MasterResume" Type="bool" Value="True"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{50E233C2-8F8E-477A-A5E6-8AC3E873AD5F}" Global="true">
+											<ObjectRef Name="id409025991" ID="{513C560C-5E28-4E40-9CB4-D388D0A6C444}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Resume" ID="{F9C732D1-8FDA-432A-A87A-5D081DE22AA8}" ShortID="22688344" Type="Resume" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+										<Property Name="FadeTime" Type="Real64" Value="2"/>
+										<Property Name="MasterResume" Type="bool" Value="True"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{FDD29053-E22A-40C0-9BB3-300B972442A3}" Global="true">
+											<ObjectRef Name="id276876398" ID="{12502761-32C7-4DD1-A722-6AAF0B793791}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Resume" ID="{5616DCC5-A5A6-438C-ADB8-04ED4B55354F}" ShortID="1048930472" Type="Resume" Scope="One" Global="true">
+									<ElementList>
+										<Element ID="{0982E89A-4B1E-4331-AD0B-D3F6FF2C9F7A}" Global="true">
+											<ObjectRef Name="ThemeMusic_Mondstadt" ID="{371A66DB-F7CA-4D35-8AA0-062104A3DD3C}" WorkUnitID="{2CF10CB9-50C8-4C4F-B352-111AD570CC93}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Start_Music_MONDSTADT" ID="{B2AD8037-7AA5-4B87-BA35-8C2E050B4860}">
+							<ChildrenList>
+								<Action Name="Play" ID="{6B59FF22-9C64-4296-9231-D3A10C45568D}" ShortID="434559358" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{CEEC3CFB-9C28-4329-8BAB-2F8A9A34BB19}" Global="false">
+											<ObjectRef Name="ThemeMusic_Mondstadt" ID="{371A66DB-F7CA-4D35-8AA0-062104A3DD3C}" WorkUnitID="{2CF10CB9-50C8-4C4F-B352-111AD570CC93}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Pause_Music_MONDSTADT" ID="{C485B9EC-BABD-49CA-8E5E-FAE754FCCD04}">
+							<ChildrenList>
+								<Action Name="Pause" ID="{9CE9FC18-47BB-448C-8F77-3842EE0AB179}" ShortID="185702305" Type="Pause" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+										<Property Name="FadeCurve" Type="int16" Value="6"/>
+										<Property Name="FadeTime" Type="Real64" Value="1.5"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{36882D15-4CC6-401E-80DF-D549EE6A667E}" Global="true">
+											<ObjectRef Name="id552184141" ID="{E44453EE-DDD6-462A-A8CC-558B6327246F}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Pause" ID="{8244D4D4-6ED7-47C1-A3FD-5F5182CFF2B0}" ShortID="264383232" Type="Pause" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+										<Property Name="FadeCurve" Type="int16" Value="6"/>
+										<Property Name="FadeTime" Type="Real64" Value="1.5"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{5D76EA97-F80E-4BD9-BA35-88E68C72E6F2}" Global="true">
+											<ObjectRef Name="id276876398" ID="{12502761-32C7-4DD1-A722-6AAF0B793791}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Pause" ID="{DF5B7A4E-3CBF-495B-86D5-125AD4EFA5F1}" ShortID="892558752" Type="Pause" Scope="One" Global="true">
+									<ElementList>
+										<Element ID="{F0444622-709F-43FE-B6FD-FABC422F7C7D}" Global="true">
+											<ObjectRef Name="CivilizationMusic_Mondstadt" ID="{AB4FCA2D-1D61-40E2-8CD6-ABF6BC519271}" WorkUnitID="{2CF10CB9-50C8-4C4F-B352-111AD570CC93}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Pause" ID="{30422FD1-6383-434E-966B-08D36E13AEF5}" ShortID="487218886" Type="Pause" Scope="One" Global="true">
+									<ElementList>
+										<Element ID="{FD671F6B-08F7-4E1A-8B1A-146DBFE2E63A}" Global="true">
+											<ObjectRef Name="ThemeMusic_Mondstadt" ID="{371A66DB-F7CA-4D35-8AA0-062104A3DD3C}" WorkUnitID="{2CF10CB9-50C8-4C4F-B352-111AD570CC93}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Pause" ID="{A1682193-3C41-4757-A74A-30D0ABAA5397}" ShortID="755202746" Type="Pause" Scope="One" Global="true">
+									<ElementList>
+										<Element ID="{8AB2BD24-83EB-4093-BAB1-BAC442D58F45}" Global="true">
+											<ObjectRef Name="id409025991" ID="{513C560C-5E28-4E40-9CB4-D388D0A6C444}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_Leader_Music_MONDSTADT" ID="{26804E6E-10B2-4948-9D4A-5011F5E4F19F}">
+							<ChildrenList>
+								<Action Name="Stop" ID="{FAD2A684-3E69-4977-8E79-36EE6C69A268}" ShortID="221269465" Type="Stop" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="FadeCurve" Type="int16" Value="6"/>
+										<Property Name="FadeTime" Type="Real64" Value="2"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{B06856A3-A1B1-4DB1-AFE7-AEFF2D195C90}" Global="true">
+											<ObjectRef Name="LeaderMusic_Mondstadt" ID="{8A7ED622-4362-48B0-9249-4D6C2E59EAE9}" WorkUnitID="{2CF10CB9-50C8-4C4F-B352-111AD570CC93}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Resume" ID="{D8F1EF15-E5EB-4D1C-B537-6A12AA6077AA}" ShortID="232030674" Type="Resume" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+										<Property Name="FadeTime" Type="Real64" Value="2"/>
+										<Property Name="MasterResume" Type="bool" Value="True"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{113B47D5-E4C7-476A-B725-96880D19FDFC}" Global="true">
+											<ObjectRef Name="id552184141" ID="{E44453EE-DDD6-462A-A8CC-558B6327246F}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Resume" ID="{0C8E3E91-CDD3-4582-89A0-E31EB648E65D}" ShortID="548590193" Type="Resume" Scope="One" Global="true">
+									<ElementList>
+										<Element ID="{38B2365D-D7C9-45B6-B317-E742DD8BA69D}" Global="true">
+											<ObjectRef Name="CivilizationMusic_Mondstadt" ID="{AB4FCA2D-1D61-40E2-8CD6-ABF6BC519271}" WorkUnitID="{2CF10CB9-50C8-4C4F-B352-111AD570CC93}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Resume" ID="{D8F031DD-02D9-4F08-823B-44A901D6A6C6}" ShortID="122258586" Type="Resume" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="MasterResume" Type="bool" Value="True"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{6335A7E8-38F3-4F02-A6B2-CA0076343331}" Global="true">
+											<ObjectRef Name="id409025991" ID="{513C560C-5E28-4E40-9CB4-D388D0A6C444}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Resume" ID="{532082EA-75EB-4BE5-AC77-9E2B3AF46590}" ShortID="714853553" Type="Resume" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+										<Property Name="FadeTime" Type="Real64" Value="2"/>
+										<Property Name="MasterResume" Type="bool" Value="True"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{96D6188E-B0D0-47E7-8D32-55860BF23643}" Global="true">
+											<ObjectRef Name="id276876398" ID="{12502761-32C7-4DD1-A722-6AAF0B793791}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Resume" ID="{00C19F30-19B7-4A76-B3A6-32E1C61347CF}" ShortID="729119738" Type="Resume" Scope="One" Global="true">
+									<ElementList>
+										<Element ID="{C7001C6C-FAC8-470D-9EA6-464141AAD049}" Global="true">
+											<ObjectRef Name="ThemeMusic_Mondstadt" ID="{371A66DB-F7CA-4D35-8AA0-062104A3DD3C}" WorkUnitID="{2CF10CB9-50C8-4C4F-B352-111AD570CC93}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Leader_Music_MONDSTADT" ID="{1D86F872-F7EF-47BA-B058-FC3E3D673BAC}">
+							<ChildrenList>
+								<Action Name="Play" ID="{4CCAFA0B-B1EB-4443-B641-D9AD0D26D398}" ShortID="975708484" Type="Play" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.2"/>
+										<Property Name="FadeTime" Type="Real64" Value="2"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{5AE1FC65-28D3-457B-851B-39B7BB5E785B}" Global="false">
+											<ObjectRef Name="LeaderMusic_Mondstadt" ID="{8A7ED622-4362-48B0-9249-4D6C2E59EAE9}" WorkUnitID="{2CF10CB9-50C8-4C4F-B352-111AD570CC93}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Pause" ID="{C549530F-2ED0-4382-BE8F-82F837960BDF}" ShortID="1071576516" Type="Pause" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+										<Property Name="FadeCurve" Type="int16" Value="6"/>
+										<Property Name="FadeTime" Type="Real64" Value="1.5"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{634A5ED2-BD92-4E58-B157-691D3E38436C}" Global="true">
+											<ObjectRef Name="id552184141" ID="{E44453EE-DDD6-462A-A8CC-558B6327246F}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Pause" ID="{308C9B2A-C939-431D-BD11-C0444C0D41C9}" ShortID="526807562" Type="Pause" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+										<Property Name="FadeCurve" Type="int16" Value="6"/>
+										<Property Name="FadeTime" Type="Real64" Value="1.5"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{9780383E-D9D0-42CA-ABDF-7CDBB01E3248}" Global="true">
+											<ObjectRef Name="id276876398" ID="{12502761-32C7-4DD1-A722-6AAF0B793791}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Pause" ID="{206EBEEC-ABE3-49FC-A376-DDC742423778}" ShortID="279534637" Type="Pause" Scope="One" Global="true">
+									<ElementList>
+										<Element ID="{85EA6FFE-DC64-40A5-BC1F-6B82BD49D122}" Global="true">
+											<ObjectRef Name="CivilizationMusic_Mondstadt" ID="{AB4FCA2D-1D61-40E2-8CD6-ABF6BC519271}" WorkUnitID="{2CF10CB9-50C8-4C4F-B352-111AD570CC93}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Pause" ID="{1EA60A22-361D-4033-A36A-9FA46AA1990A}" ShortID="768284636" Type="Pause" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{2BF6B6D4-B080-4AAA-892D-4348755104FC}" Global="false">
+											<ObjectRef Name="ThemeMusic_Mondstadt" ID="{371A66DB-F7CA-4D35-8AA0-062104A3DD3C}" WorkUnitID="{2CF10CB9-50C8-4C4F-B352-111AD570CC93}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Pause" ID="{A7451A3B-56A6-4330-9AAA-41C88267EE39}" ShortID="452780005" Type="Pause" Scope="One" Global="true">
+									<ElementList>
+										<Element ID="{A10DAFB1-89E2-4DAB-AC20-5C4514820A13}" Global="true">
+											<ObjectRef Name="id409025991" ID="{513C560C-5E28-4E40-9CB4-D388D0A6C444}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{FED2D8FD-BBCC-4F4A-9B3C-15691C69558F}" ShortID="73769048" Type="Stop" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.2"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{B1B1DE56-C0EC-4AEB-8ECA-B8791548D0BC}" Global="true">
+											<ObjectRef Name="id554830605" ID="{EB516F78-AB70-4167-9471-637D43192CED}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{5DAB9D80-AB5A-45B4-B3F7-1795F180C746}" ShortID="901460701" Type="Stop" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="FadeCurve" Type="int16" Value="6"/>
+										<Property Name="FadeTime" Type="Real64" Value="2"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{7C1CB5C9-E5F4-403F-AD3F-513D541BAF23}" Global="true">
+											<ObjectRef Name="id118127726" ID="{D45786EA-1D85-4F08-AE93-E70A5B1BAF18}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="SFX" ID="{8D383326-0A1F-4D3F-8049-56D131A3984D}" ShortID="135543348"/>
+				<Folder Name="Speech" ID="{2B43D8C9-A444-4171-8A55-99BF73C4DA84}" ShortID="594840569">
+					<ChildrenList>
+						<Event Name="MOST_KL_DECLARE_WAR_A" ID="{63AE231C-FE91-4DD0-9C95-8CAF01891AEF}">
+							<ChildrenList>
+								<Action Name="Play" ID="{A7564900-8918-4773-AE9C-3D95111C14CC}" ShortID="789802339" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{70E637D9-77FF-4C64-B047-C4D9429B67DE}" Global="false">
+											<ObjectRef Name="MOST_KL_DECLARE_WAR_A" ID="{5AE93DAD-EB87-470B-AFBE-38022325DDA8}" WorkUnitID="{048AE7AB-B3DB-4825-9B4C-5DDE80B87767}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="MOST_KL_DECLARE_WAR_FROM_AI_A" ID="{ED58C6D3-DAC9-4B04-8349-85B23295F272}">
+							<ChildrenList>
+								<Action Name="Play" ID="{357F30B1-D6E8-409B-B90A-BF97A4851F2A}" ShortID="247248437" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{1715AAF3-CCC1-4778-9A3E-95258F40D874}" Global="false">
+											<ObjectRef Name="MOST_KL_DECLARE_WAR_FROM_AI_A" ID="{FBDE3F95-C9C3-48F1-B8DF-E7B95803E84D}" WorkUnitID="{048AE7AB-B3DB-4825-9B4C-5DDE80B87767}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="MOST_KL_DEFEAT_A" ID="{11968398-E79C-4CED-B815-10A5F6493742}">
+							<ChildrenList>
+								<Action Name="Play" ID="{B5A14C7D-DD15-410F-9C2B-8EBEE2F3520F}" ShortID="601565790" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{68CF0C31-1656-477C-BC9A-D92B69D54F79}" Global="false">
+											<ObjectRef Name="MOST_KL_DEFEAT_A" ID="{1517AC17-D51E-47FF-80EA-30D78377CBE4}" WorkUnitID="{048AE7AB-B3DB-4825-9B4C-5DDE80B87767}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="MOST_KL_FIRST_MEET_A" ID="{C75A843B-82CE-4852-8EB0-1E528FFAA21F}">
+							<ChildrenList>
+								<Action Name="Play" ID="{9EE07996-20E7-4017-BD8C-97E842BB8EA4}" ShortID="967354120" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{98F2E1E1-75A5-40CD-A40E-180227DCF676}" Global="false">
+											<ObjectRef Name="MOST_KL_FIRST_MEET_A" ID="{F32CA6AC-8AAD-41A4-AE3C-41069B03418C}" WorkUnitID="{048AE7AB-B3DB-4825-9B4C-5DDE80B87767}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="MOST_KL_KUDOS_A" ID="{BB7FBF92-8011-4E37-B29F-715A8AB79267}">
+							<ChildrenList>
+								<Action Name="Play" ID="{83074F50-DCE8-471B-B9E4-0BA09954C08E}" ShortID="648335418" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{A3CF4A19-C96E-458D-9809-39A837397567}" Global="false">
+											<ObjectRef Name="MOST_KL_KUDOS_A" ID="{B5A70D52-C3B9-4135-AD84-3B7013BE85FE}" WorkUnitID="{048AE7AB-B3DB-4825-9B4C-5DDE80B87767}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="MOST_KL_MISC_PEP_TALK_A" ID="{8D65E053-5D56-4A60-8BC9-8C8F995CA5F9}">
+							<ChildrenList>
+								<Action Name="Play" ID="{D35362F0-F009-49B1-AFCC-E5DC45BF402F}" ShortID="732081183" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{B4D9BDF1-7A79-4C91-9420-0289D8A451F9}" Global="false">
+											<ObjectRef Name="MOST_KL_MISC_PEP_TALK_A" ID="{58333C96-AD77-47CB-908D-71AA254A9D45}" WorkUnitID="{048AE7AB-B3DB-4825-9B4C-5DDE80B87767}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="MOST_KL_WARNING_A" ID="{86D095D4-9AEA-4938-9A9A-5EBA11D555BC}">
+							<ChildrenList>
+								<Action Name="Play" ID="{02FE068A-BC4D-48D9-B068-1B2C0AE33937}" ShortID="153274574" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{95829D2F-D273-4EC8-87DD-D9350DD0A372}" Global="false">
+											<ObjectRef Name="MOST_KL_WARNING_A" ID="{B2DCF4A2-CCFB-44D1-811E-0C15D5C42B12}" WorkUnitID="{048AE7AB-B3DB-4825-9B4C-5DDE80B87767}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
