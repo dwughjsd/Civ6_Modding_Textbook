@@ -51,7 +51,7 @@
 						<m_Name text="01_FIRST_MEET"/>
 						<m_Description text=""/>
 						<m_AnimationName text=""/>
-						<m_fDuration>9.000000</m_fDuration>
+						<m_fDuration>6.000000</m_fDuration>
 						<m_Triggers>
 							<Element>
 								<m_eType>SOUND</m_eType>
@@ -96,7 +96,7 @@
 						<m_Name text="02_DECLARE_WAR_FROM_HUMAN"/>
 						<m_Description text=""/>
 						<m_AnimationName text=""/>
-						<m_fDuration>6.000000</m_fDuration>
+						<m_fDuration>3.000000</m_fDuration>
 						<m_Triggers>
 							<Element>
 								<m_eType>SOUND</m_eType>
@@ -141,7 +141,7 @@
 						<m_Name text="03_DECLARE_WAR_FROM_AI"/>
 						<m_Description text=""/>
 						<m_AnimationName text=""/>
-						<m_fDuration>11.000000</m_fDuration>
+						<m_fDuration>3.000000</m_fDuration>
 						<m_Triggers>
 							<Element>
 								<m_eType>SOUND</m_eType>
@@ -231,7 +231,7 @@
 						<m_Name text="05_WARNING"/>
 						<m_Description text=""/>
 						<m_AnimationName text=""/>
-						<m_fDuration>5.000000</m_fDuration>
+						<m_fDuration>6.000000</m_fDuration>
 						<m_Triggers>
 							<Element>
 								<m_eType>SOUND</m_eType>
@@ -534,3 +534,4 @@
 		<Element text="Leader"/>
 	</m_Tags>
 </AssetObjects..AssetInstance>
+

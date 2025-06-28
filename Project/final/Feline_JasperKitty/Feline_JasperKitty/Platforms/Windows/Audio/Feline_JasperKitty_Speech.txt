@@ -1,0 +1,18 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1855368746	FELI_JK_WARNING_A			\Default Work Unit\FELI_JK_WARNING_A	
+	2050459976	FELI_JK_KUDOS_A			\Default Work Unit\FELI_JK_KUDOS_A	
+	2929694265	FELI_JK_MISC_PEP_TALK_A			\Default Work Unit\FELI_JK_MISC_PEP_TALK_A	
+	3618960531	FELI_JK_DEFEAT_A			\Default Work Unit\FELI_JK_DEFEAT_A	
+	4009655763	FELI_JK_DECLARE_WAR_A			\Default Work Unit\FELI_JK_DECLARE_WAR_A	
+	4084599295	FELI_JK_DECLARE_WAR_FROM_AI_A			\Default Work Unit\FELI_JK_DECLARE_WAR_FROM_AI_A	
+	4178292850	FELI_JK_FIRST_MEET_A			\Default Work Unit\FELI_JK_FIRST_MEET_A	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	151157277	FELI_JK_KUDOS_A	D:\Admin\Documents\GitHub\Civ6_Modding_Textbook\WWiseProject\FelineJasperKitty\.cache\Windows\SFX\FELI_JK_KUDOS_A_B93921CF.wem		\Actor-Mixer Hierarchy\LeaderSpeech_Feline\id88602518\id854467727\id424381547\JasperKittySpeech\FELI_JK_KUDOS_A		176572
+	223917733	FELI_JK_MISC_PEP_TALK_A	D:\Admin\Documents\GitHub\Civ6_Modding_Textbook\WWiseProject\FelineJasperKitty\.cache\Windows\SFX\FELI_JK_MISC_PEP_TALK_A_B93921CF.wem		\Actor-Mixer Hierarchy\LeaderSpeech_Feline\id88602518\id854467727\id424381547\JasperKittySpeech\FELI_JK_MISC_PEP_TALK_A		86896
+	309539452	FELI_JK_DECLARE_WAR_FROM_AI_A	D:\Admin\Documents\GitHub\Civ6_Modding_Textbook\WWiseProject\FelineJasperKitty\.cache\Windows\SFX\FELI_JK_DECLARE_WAR_FROM_AI_A_B93921CF.wem		\Actor-Mixer Hierarchy\LeaderSpeech_Feline\id88602518\id854467727\id424381547\JasperKittySpeech\FELI_JK_DECLARE_WAR_FROM_AI_A		52840
+	535551389	FELI_JK_FIRST_MEET_A	D:\Admin\Documents\GitHub\Civ6_Modding_Textbook\WWiseProject\FelineJasperKitty\.cache\Windows\SFX\FELI_JK_FIRST_MEET_A_B93921CF.wem		\Actor-Mixer Hierarchy\LeaderSpeech_Feline\id88602518\id854467727\id424381547\JasperKittySpeech\FELI_JK_FIRST_MEET_A		126352
+	695543262	FELI_JK_WARNING_A	D:\Admin\Documents\GitHub\Civ6_Modding_Textbook\WWiseProject\FelineJasperKitty\.cache\Windows\SFX\FELI_JK_WARNING_A_B93921CF.wem		\Actor-Mixer Hierarchy\LeaderSpeech_Feline\id88602518\id854467727\id424381547\JasperKittySpeech\FELI_JK_WARNING_A		131464
+	782878541	FELI_JK_DECLARE_WAR_A	D:\Admin\Documents\GitHub\Civ6_Modding_Textbook\WWiseProject\FelineJasperKitty\.cache\Windows\SFX\FELI_JK_DECLARE_WAR_A_B93921CF.wem		\Actor-Mixer Hierarchy\LeaderSpeech_Feline\id88602518\id854467727\id424381547\JasperKittySpeech\FELI_JK_DECLARE_WAR_A		60832
+	832139777	FELI_JK_DEFEAT_A	D:\Admin\Documents\GitHub\Civ6_Modding_Textbook\WWiseProject\FelineJasperKitty\.cache\Windows\SFX\FELI_JK_DEFEAT_A_B93921CF.wem		\Actor-Mixer Hierarchy\LeaderSpeech_Feline\id88602518\id854467727\id424381547\JasperKittySpeech\FELI_JK_DEFEAT_A		50680
+

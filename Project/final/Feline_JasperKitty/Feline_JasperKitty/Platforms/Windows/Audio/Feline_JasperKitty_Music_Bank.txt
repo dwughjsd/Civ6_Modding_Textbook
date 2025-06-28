@@ -1,0 +1,17 @@
+Event	ID	Name			Wwise Object Path	Notes
+	491470805	Play_Leader_Music_FELINE			\Default Work Unit\Play_Leader_Music_FELINE	
+	623116723	Stop_Leader_Music_FELINE			\Default Work Unit\Stop_Leader_Music_FELINE	
+	1028717618	Resume_Music_FELINE			\Default Work Unit\Resume_Music_FELINE	
+	1054065463	Start_Music_FELINE			\Default Work Unit\Start_Music_FELINE	
+	1631354817	Pause_Music_FELINE			\Default Work Unit\Pause_Music_FELINE	
+	2421564217	Stop_Music_FELINE			\Default Work Unit\Stop_Music_FELINE	
+	4206318687	Play_Music_FELINE			\Default Work Unit\Play_Music_FELINE	
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	10630958	FelineAmbient1	D:\Admin\Documents\GitHub\Civ6_Modding_Textbook\WWiseProject\FelineJasperKitty\.cache\Windows\SFX\FelineAmbient1_17C11484.wem	10630958.wem	\Interactive Music Hierarchy\FelineBackgroundMusic\CivilizationMusic_Feline\FelineCiv_Ancient\FelineAmbient1\FelineAmbient1	
+	194593380	FelineAmbient2	D:\Admin\Documents\GitHub\Civ6_Modding_Textbook\WWiseProject\FelineJasperKitty\.cache\Windows\SFX\FelineAmbient2_17C11484.wem	194593380.wem	\Interactive Music Hierarchy\FelineBackgroundMusic\CivilizationMusic_Feline\FelineCiv_Ancient\FelineAmbient2\FelineAmbient2	
+	339468793	Feline_Medieval	D:\Admin\Documents\GitHub\Civ6_Modding_Textbook\WWiseProject\FelineJasperKitty\.cache\Windows\SFX\Feline_Medieval_17C11484.wem	339468793.wem	\Interactive Music Hierarchy\FelineBackgroundMusic\ThemeMusic_Feline\Feline_Medieval\Feline_Medieval	
+	472695686	Feline_Industrial	D:\Admin\Documents\GitHub\Civ6_Modding_Textbook\WWiseProject\FelineJasperKitty\.cache\Windows\SFX\Feline_Industrial_17C11484.wem	472695686.wem	\Interactive Music Hierarchy\FelineBackgroundMusic\ThemeMusic_Feline\Feline_Industrial\Feline_Industrial	
+	866409320	Feline_Atomic	D:\Admin\Documents\GitHub\Civ6_Modding_Textbook\WWiseProject\FelineJasperKitty\.cache\Windows\SFX\Feline_Atomic_17C11484.wem	866409320.wem	\Interactive Music Hierarchy\FelineBackgroundMusic\ThemeMusic_Feline\Feline_Atomic\Feline_Atomic	
+	889611208	Feline_Ancient	D:\Admin\Documents\GitHub\Civ6_Modding_Textbook\WWiseProject\FelineJasperKitty\.cache\Windows\SFX\Feline_Ancient_17C11484.wem	889611208.wem	\Interactive Music Hierarchy\FelineBackgroundMusic\ThemeMusic_Feline\Feline_Ancient\Feline_Ancient	
+

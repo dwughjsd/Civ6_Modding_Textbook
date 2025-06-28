@@ -22,7 +22,7 @@
 </Associations>]]></AssociationData>
     <AssemblyName>Feline_JasperKitty</AssemblyName>
     <RootNamespace>Feline_JasperKitty</RootNamespace>
-    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Feline_Gameplay"><Criteria>FelineJasperKitty</Criteria><File>Data/Feline_JasperKitty_Civilizations.xml</File><File>Data/Feline_JasperKitty_Leaders.xml</File><File>Data/Feline_JasperKitty_Buildings.xml</File><File>Data/Feline_JasperKitty_Units.xml</File></UpdateDatabase><UpdateArt id="Feline_Art"><Criteria>FelineJasperKitty</Criteria><File>(Mod Art Dependency File)</File></UpdateArt><UpdateDatabase id="Feline_Expansion2"><Criteria>FelineJasperKitty_Expansion2</Criteria><File>Data/Feline_JasperKitty_Expansion2.xml</File></UpdateDatabase><UpdateDatabase id="Feline_Expansion1"><Criteria>FelineJasperKitty_Expansion1</Criteria><File>Data/Feline_JasperKitty_Expansion1.xml</File></UpdateDatabase><UpdateText id="Feline_Text"><Criteria>FelineJasperKitty</Criteria><File>Text/Feline_JasperKitty_ConfigText_A.xml</File><File>Text/Feline_JasperKitty_ConfigText_Translations.xml</File><File>Text/Feline_JasperKitty_Text_A.xml</File><File>Text/Feline_JasperKitty_Text_Translations.xml</File></UpdateText><UpdateIcons id="Feline_Icons"><Criteria>FelineJasperKitty</Criteria><File>Data/Feline_JasperKitty_Icons.xml</File></UpdateIcons><UpdateColors id="Feline_Colors"><Criteria>FelineJasperKitty</Criteria><File>Data/Feline_JasperKitty_Colors.xml</File></UpdateColors></InGameActions>]]></InGameActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Feline_Gameplay"><Criteria>FelineJasperKitty</Criteria><File>Data/Feline_JasperKitty_Civilizations.xml</File><File>Data/Feline_JasperKitty_Leaders.xml</File><File>Data/Feline_JasperKitty_Buildings.xml</File><File>Data/Feline_JasperKitty_Units.xml</File></UpdateDatabase><UpdateArt id="Feline_Art"><Criteria>FelineJasperKitty</Criteria><File>(Mod Art Dependency File)</File></UpdateArt><UpdateDatabase id="Feline_Expansion2"><Criteria>FelineJasperKitty_Expansion2</Criteria><File>Data/Feline_JasperKitty_Expansion2.xml</File></UpdateDatabase><UpdateDatabase id="Feline_Expansion1"><Criteria>FelineJasperKitty_Expansion1</Criteria><File>Data/Feline_JasperKitty_Expansion1.xml</File></UpdateDatabase><UpdateText id="Feline_Text"><Criteria>FelineJasperKitty</Criteria><File>Text/Feline_JasperKitty_ConfigText_A.xml</File><File>Text/Feline_JasperKitty_ConfigText_Translations.xml</File><File>Text/Feline_JasperKitty_Text_A.xml</File><File>Text/Feline_JasperKitty_Text_Translations.xml</File></UpdateText><UpdateIcons id="Feline_Icons"><Criteria>FelineJasperKitty</Criteria><File>Data/Feline_JasperKitty_Icons.xml</File></UpdateIcons><UpdateColors id="Feline_Colors"><Criteria>FelineJasperKitty</Criteria><File>Data/Feline_JasperKitty_Colors.xml</File></UpdateColors><UpdateAudio id="Feline_Audio"><Criteria>FelineJasperKitty</Criteria><File>Platforms/Windows/Audio/FelineBanks.ini</File></UpdateAudio></InGameActions>]]></InGameActionData>
     <LocalizedTextData><![CDATA[<LocalizedText><File>Text/Feline_JasperKitty_PackageText_A.xml</File><File>Text/Feline_JasperKitty_PackageText_Translations.xml</File></LocalizedText>]]></LocalizedTextData>
     <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="Feline_Config"><File>Data/Feline_JasperKitty_Config.xml</File></UpdateDatabase><UpdateArt id="Feline_ConfigArt"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateText id="Feline_ConfigText"><File>Text/Feline_JasperKitty_ConfigText_A.xml</File><File>Text/Feline_JasperKitty_ConfigText_Translations.xml</File></UpdateText><UpdateIcons id="Feline_ConfigIcons"><File>Data/Feline_JasperKitty_Icons.xml</File></UpdateIcons><UpdateColors id="Feline_ConfigColors"><File>Data/Feline_JasperKitty_Colors.xml</File></UpdateColors></FrontEndActions>]]></FrontEndActionData>
     <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="FelineJasperKitty"><LeaderPlayable>Players:StandardPlayers::LEADER_JASPER_KITTY,StandardPlayers::LEADER_JASPER_KITTY,Players:Expansion1_Players::LEADER_JASPER_KITTY,Players:Expansion2_Players::LEADER_JASPER_KITTY</LeaderPlayable><RuleSetInUse>RULESET_STANDARD,RULESET_EXPANSION_1,RULESET_EXPANSION_2</RuleSetInUse></Criteria><Criteria id="FelineJasperKitty_Expansion1"><LeaderPlayable>Players:Expansion1_Players::LEADER_JASPER_KITTY</LeaderPlayable><RuleSetInUse>RULESET_EXPANSION_1</RuleSetInUse></Criteria><Criteria id="FelineJasperKitty_Expansion2"><LeaderPlayable>Players:Expansion2_Players::LEADER_JASPER_KITTY</LeaderPlayable><RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse></Criteria></ActionCriteria>]]></ActionCriteriaData>
@@ -35,6 +35,9 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Data" />
+    <Folder Include="Platforms" />
+    <Folder Include="Platforms\Windows" />
+    <Folder Include="Platforms\Windows\Audio" />
     <Folder Include="Text" />
   </ItemGroup>
   <ItemGroup>
@@ -63,6 +66,45 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Data\Feline_JasperKitty_Units.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\10630958.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\194593380.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\339468793.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\472695686.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\866409320.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\889611208.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\FelineBanks.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\Feline_JasperKitty_Music_Bank.bnk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\Feline_JasperKitty_Music_Bank.txt">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\Feline_JasperKitty_Music_Bank.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\Feline_JasperKitty_Speech.bnk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\Feline_JasperKitty_Speech.txt">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\Feline_JasperKitty_Speech.xml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Text\Feline_JasperKitty_ConfigText_A.xml">
