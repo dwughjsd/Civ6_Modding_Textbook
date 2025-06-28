@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>1</major>
+		<minor>0</minor>
+		<build>0</build>
+		<revision>0</revision>
+	</m_Version>
+	<m_ClassName text="UITexture"/>
+	<m_PackageName text="UI/Icons"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="Feline128"/>
+			<m_ObjectName text="Feline128"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Feline22"/>
+			<m_ObjectName text="Feline22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Feline256"/>
+			<m_ObjectName text="Feline256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Feline30"/>
+			<m_ObjectName text="Feline30"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Feline32"/>
+			<m_ObjectName text="Feline32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Feline36"/>
+			<m_ObjectName text="Feline36"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Feline44"/>
+			<m_ObjectName text="Feline44"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Feline45"/>
+			<m_ObjectName text="Feline45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Feline48"/>
+			<m_ObjectName text="Feline48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Feline50"/>
+			<m_ObjectName text="Feline50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Feline64"/>
+			<m_ObjectName text="Feline64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Feline80"/>
+			<m_ObjectName text="Feline80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="JasperKitty256"/>
+			<m_ObjectName text="JasperKitty256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="JasperKitty32"/>
+			<m_ObjectName text="JasperKitty32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="JasperKitty45"/>
+			<m_ObjectName text="JasperKitty45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="JasperKitty48"/>
+			<m_ObjectName text="JasperKitty48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="JasperKitty50"/>
+			<m_ObjectName text="JasperKitty50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="JasperKitty55"/>
+			<m_ObjectName text="JasperKitty55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="JasperKitty64"/>
+			<m_ObjectName text="JasperKitty64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="JasperKitty80"/>
+			<m_ObjectName text="JasperKitty80"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

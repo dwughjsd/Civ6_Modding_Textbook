@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_FELINE_JASPER_KITTY_MOD_TITLE" Language="zh_Hans_CN">
+			<Text>猫猫族包</Text>
+		</Row>
+		<Row Tag="LOC_FELINE_JASPER_KITTY_MOD_TEASER" Language="zh_Hans_CN">
+			<Text>新文明和领袖——猫猫族的猫咪贾斯伯</Text>
+		</Row>
+		<Row Tag="LOC_FELINE_JASPER_KITTY_MOD_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>包含1个新文明和领袖。</Text>
+		</Row>
+		<Row Tag="LOC_FELINE_JASPER_KITTY_MOD_AUTHORS" Language="zh_Hans_CN">
+			<Text>自豪的小优妮</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

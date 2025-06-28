@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_CIVILIZATION_FELINE_DESCRIPTION" Language="en_US">
+			<Text>Feline Empire</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_FELINE_ADJECTIVE" Language="en_US">
+			<Text>Feline</Text>
+		</Row>
+
+		<InsertOrIgnore Tag="LOC_CITY_NAME_PAWTIMORE" Language="en_US" Text="Pawtimore"/>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_CITY_1" Language="en_US" Text="City 1"/>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_CITY_2" Language="en_US" Text="City 2"/>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_CITY_3" Language="en_US" Text="City 3"/>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_CITY_4" Language="en_US" Text="City 4"/>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_CITY_5" Language="en_US" Text="City 5"/>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_CITY_6" Language="en_US" Text="City 6"/>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_CITY_7" Language="en_US" Text="City 7"/>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_CITY_8" Language="en_US" Text="City 8"/>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_CITY_9" Language="en_US" Text="City 9"/>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_CITY_10" Language="en_US" Text="City 10"/>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_CITY_11" Language="en_US" Text="City 11"/>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_CITY_12" Language="en_US" Text="City 12"/>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_CITY_13" Language="en_US" Text="City 13"/>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_CITY_14" Language="en_US" Text="City 14"/>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_CITY_15" Language="en_US" Text="City 15"/>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_CITY_16" Language="en_US" Text="City 16"/>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_CITY_17" Language="en_US" Text="City 17"/>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_CITY_18" Language="en_US" Text="City 18"/>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_CITY_19" Language="en_US" Text="City 19"/>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_CITY_20" Language="en_US" Text="City 20"/>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_CITY_21" Language="en_US" Text="City 21"/>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_CITY_22" Language="en_US" Text="City 22"/>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_CITY_23" Language="en_US" Text="City 23"/>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_CITY_24" Language="en_US" Text="City 24"/>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_CITY_25" Language="en_US" Text="City 25"/>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_CITY_26" Language="en_US" Text="City 26"/>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_CITY_27" Language="en_US" Text="City 27"/>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_CITY_28" Language="en_US" Text="City 28"/>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_CITY_29" Language="en_US" Text="City 29"/>
+
+		<Row Tag="LOC_ABILITY_COMBAT_BONUS_JASPER_KITTY_NAME" Language="en_US">
+			<Text>{LOC_TRAIT_LEADER_KITTY_CLAWS_NAME}</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_COMBAT_BONUS_JASPER_KITTY_DESCRIPTION" Language="en_US">
+			<Text>+10 [ICON_Strength] Combat Strength.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_COMBAT_BONUS_JASPER_KITTY_MODIFIER_DESCRIPTION" Language="en_US">
+			<Text>+10 [ICON_Strength] Combat Strength from {LOC_TRAIT_LEADER_KITTY_CLAWS_NAME}</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_KITTEN_IGNORE_FOREST_MOVEMENT_PENALTY_NAME" Language="en_US">
+			<Text>{LOC_UNIT_FELINE_KITTEN_NAME}</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_KITTEN_IGNORE_FOREST_MOVEMENT_PENALTY_DESCRIPTION" Language="en_US">
+			<Text>Ignores [ICON_Movement] Movement penalties for Woods and Rainforests.</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_TERRITORIAL_CAT_NAME" Language="en_US">
+			<Text>Territorial</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_TERRITORIAL_CAT_DESCRIPTION" Language="en_US">
+			<Text>Likes civilizations who settle at a distance. Dislikes any civilizations encroaching on Feline territory.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_TERRITORIAL_CAT_NEIGHBOR" Language="en_US">
+			<Text>Jasper Kitty is disturbed by you settling near one of his cities.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_TERRITORIAL_CAT_NOT_NEIGHBOR" Language="en_US">
+			<Text>Jasper Kitty is pleased that you settled far away from his empire.</Text>
+		</Row>
+
+		<Row Tag="LOC_LEADER_JASPER_KITTY_QUOTE" Language="en_US" Text="Meow."/>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_JASPER_KITTY_ANY" Language="en_US" Text="Mrow! I am the mighty Jasper Kitty. Pet me."/>
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_JASPER_KITTY_ANY" Language="en_US" Text="Meow, how dare you! All that you hold dear will turn to ash!"/>
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_JASPER_KITTY_ANY" Language="en_US" Text="Meow, you have what I want, and I take what I want."/>
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_JASPER_KITTY_ANY" Language="en_US" Text="Meow, I am relieved to see that your empire poses no threat to ours."/>
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_JASPER_KITTY_ANY" Language="en_US" Text="Meow, your cities are so close.  Your troops are so strong.  You are making me nervous!"/>
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_JASPER_KITTY_ANY" Language="en_US" Text="Meow, I never thought I would see the end so soon!"/>
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_JASPER_KITTY_ANY" Language="en_US" Text="Meow, thank you. I think this will benefit each of us."/>
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_JASPER_KITTY_ANY" Language="en_US" Text="Meow, I must say, I'm a bit disappointed."/>
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_JASPER_KITTY_ANY" Language="en_US" Text="Meow, this situation is going to get worse before it gets any better."/>
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_JASPER_KITTY_ANY" Language="en_US" Text="Meow, the world needs to be aware of your transgressions (Denounces You)."/>
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_JASPER_KITTY_ANY" Language="en_US" Text="Meow, your troops tread too close to my borders. I hope it's just to view our picturesque countryside."/>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_JASPER_KITTY_ANY" Language="en_US" Text="I haz a box. Wanna see?"/>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_JASPER_KITTY_ANY" Language="en_US" Text="Let me rub my face on all of your stuff so that it will be mine."/>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_JASPER_KITTY_ANY" Language="en_US" Text="Meow, neither of us hails from nearby, but perhaps we should mark our homelands on each other's maps?"/>
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_JASPER_KITTY_ANY" Language="en_US" Text="Meow, we are happy to welcome your delegation to our capital."/>
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_JASPER_KITTY_ANY" Language="en_US" Text="Meow, we politely refuse your delegation."/>
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_JASPER_KITTY_ANY" Language="en_US" Text="Meow, will you receive our diplomatic delegation in your capital?"/>
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_JASPER_KITTY_ANY" Language="en_US" Text="Meow, we are pleased to accept your offer of friendship."/>
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_JASPER_KITTY_ANY" Language="en_US" Text="Meow, we are not interested at this time."/>
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_JASPER_KITTY_ANY" Language="en_US" Text="Meow, Would you like to formally declare our friendship?"/>
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_JASPER_KITTY_ANY" Language="en_US" Text="Meow, thank you. I think this will benefit each of us."/>
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_JASPER_KITTY_ANY" Language="en_US" Text="Meow, I must say, I'm a bit disappointed."/>
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_JASPER_KITTY_ANY" Language="en_US" Text="Meow, would you like to form an alliance?"/>
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_JASPER_KITTY_ANY" Language="en_US" Text="Meow, what do you wish of me?"/>
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_JASPER_KITTY_ANY" Language="en_US" Text="Meow, I accept your terms for peace."/>
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_JASPER_KITTY_ANY" Language="en_US" Text="Meow, there can be no peace between us!"/>
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_JASPER_KITTY_ANY" Language="en_US" Text="Meow, peace, mmkay?"/>
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_JASPER_KITTY_ANY" Language="en_US" Text="Meow, we are happy to open up our borders to your units."/>
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_JASPER_KITTY_ANY" Language="en_US" Text="Meow, we are not interested at this time."/>
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_JASPER_KITTY_ANY" Language="en_US" Text="Meow, will you allow our units to cross through your territory?"/>
+
+		<Row Tag="LOC_LOADING_INFO_LEADER_JASPER_KITTY" Language="en_US" Text="Rule the world, Jasper Kitty! You have your teeth and claws sharpened, and are prepared to explore with lightning speed. Claim your sovereignty in a Litter Box when you are taking rest, and let your servent clean for you. Lead your kitten legion to strike your enemies, and let them know that a civilized cat can go feral."/>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_JASPER_KITTY _SUBTITLE" Language="en_US" Text="Mighty Feline King"/>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_JASPER_KITTY_CHAPTER_CAPSULE_BODY" Language="en_US" Text="Jasper kitty is a beginner-friendly feline. He teachs people how to write a simple but powerful leader."/>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_JASPER_KITTY_CHAPTER_DETAILED_BODY" Language="en_US" Text="Jasper kitty has traits that are powerful since the early game and easy to write. By using simple modifiers and unit abilities, they will acquire strong yield and combat bonuses and make themselves a contender for any victory. Be sure to build a Litter Box which provides bonus [ICON_Culture] essential for city development in every city you have. It will be up to you to design you own mod by yourself after you make this mod successfully!"/>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_JASPER_KITTY_CHAPTER_HISTORY_PARA_1" Language="en_US" Text="Born in 2010, Jasper kitty grew to power at a young age…"/>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_FELINE_CHAPTER_HISTORY_PARA_1" Language="en_US" Text="The felines have a rich history, but are too lazy to write about it."/>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_FELINE_KITTEN_CHAPTER_HISTORY_PARA_1" Language="en_US" Text="I'm not going to write the historical context about the kittens..."/>
+		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_LITTER_BOX_CHAPTER_HISTORY_PARA_1" Language="en_US" Text="I'm not going to write the historical context about the litter box…"/>
+
+		<Row Tag="LOC_CITIZEN_FELINE_MALE_1" Language="en_US" Text="Mittens"/>
+		<Row Tag="LOC_CITIZEN_FELINE_MALE_2" Language="en_US" Text="Snookums"/>
+		<Row Tag="LOC_CITIZEN_FELINE_MALE_3" Language="en_US" Text="Patches"/>
+		<Row Tag="LOC_CITIZEN_FELINE_MALE_4" Language="en_US" Text="Tom"/>
+		<Row Tag="LOC_CITIZEN_FELINE_MALE_5" Language="en_US" Text="Mittens II"/>
+		<Row Tag="LOC_CITIZEN_FELINE_MALE_6" Language="en_US" Text="Snookums II"/>
+		<Row Tag="LOC_CITIZEN_FELINE_MALE_7" Language="en_US" Text="Patches II"/>
+		<Row Tag="LOC_CITIZEN_FELINE_MALE_8" Language="en_US" Text="Tom II"/>
+		<Row Tag="LOC_CITIZEN_FELINE_MALE_9" Language="en_US" Text="Mittens III"/>
+		<Row Tag="LOC_CITIZEN_FELINE_MALE_10" Language="en_US" Text="Snookums III"/>
+		<Row Tag="LOC_CITIZEN_FELINE_MODERN_MALE_1" Language="en_US" Text="Patches III"/>
+		<Row Tag="LOC_CITIZEN_FELINE_MODERN_MALE_2" Language="en_US" Text="Tom III"/>
+		<Row Tag="LOC_CITIZEN_FELINE_MODERN_MALE_3" Language="en_US" Text="Mittens IV"/>
+		<Row Tag="LOC_CITIZEN_FELINE_MODERN_MALE_4" Language="en_US" Text="Snookums IV"/>
+		<Row Tag="LOC_CITIZEN_FELINE_MODERN_MALE_5" Language="en_US" Text="Patches IV"/>
+		<Row Tag="LOC_CITIZEN_FELINE_MODERN_MALE_6" Language="en_US" Text="Tom IV"/>
+		<Row Tag="LOC_CITIZEN_FELINE_MODERN_MALE_7" Language="en_US" Text="Mittens V"/>
+		<Row Tag="LOC_CITIZEN_FELINE_MODERN_MALE_8" Language="en_US" Text="Snookums V"/>
+		<Row Tag="LOC_CITIZEN_FELINE_MODERN_MALE_9" Language="en_US" Text="Patches V"/>
+		<Row Tag="LOC_CITIZEN_FELINE_MODERN_MALE_10" Language="en_US" Text="Tom V"/>
+		<Row Tag="LOC_CITIZEN_FELINE_FEMALE_1" Language="en_US" Text="Miss Kitty"/>
+		<Row Tag="LOC_CITIZEN_FELINE_FEMALE_2" Language="en_US" Text="Callie"/>
+		<Row Tag="LOC_CITIZEN_FELINE_FEMALE_3" Language="en_US" Text="Tabby"/>
+		<Row Tag="LOC_CITIZEN_FELINE_FEMALE_4" Language="en_US" Text="Whiskers"/>
+		<Row Tag="LOC_CITIZEN_FELINE_FEMALE_5" Language="en_US" Text="Sally Soft Paws"/>
+		<Row Tag="LOC_CITIZEN_FELINE_FEMALE_6" Language="en_US" Text="Miss Kitty II"/>
+		<Row Tag="LOC_CITIZEN_FELINE_FEMALE_7" Language="en_US" Text="Callie II"/>
+		<Row Tag="LOC_CITIZEN_FELINE_FEMALE_8" Language="en_US" Text="Tabby II"/>
+		<Row Tag="LOC_CITIZEN_FELINE_FEMALE_9" Language="en_US" Text="Whiskers II"/>
+		<Row Tag="LOC_CITIZEN_FELINE_FEMALE_10" Language="en_US" Text="Sally Soft Paws II"/>
+		<Row Tag="LOC_CITIZEN_FELINE_MODERN_FEMALE_1" Language="en_US" Text="Miss Kitty III"/>
+		<Row Tag="LOC_CITIZEN_FELINE_MODERN_FEMALE_2" Language="en_US" Text="Callie III"/>
+		<Row Tag="LOC_CITIZEN_FELINE_MODERN_FEMALE_3" Language="en_US" Text="Tabby III"/>
+		<Row Tag="LOC_CITIZEN_FELINE_MODERN_FEMALE_4" Language="en_US" Text="Whiskers III"/>
+		<Row Tag="LOC_CITIZEN_FELINE_MODERN_FEMALE_5" Language="en_US" Text="Sally Soft Paws III"/>
+		<Row Tag="LOC_CITIZEN_FELINE_MODERN_FEMALE_6" Language="en_US" Text="Miss Kitty IV"/>
+		<Row Tag="LOC_CITIZEN_FELINE_MODERN_FEMALE_7" Language="en_US" Text="Callie IV"/>
+		<Row Tag="LOC_CITIZEN_FELINE_MODERN_FEMALE_8" Language="en_US" Text="Tabby IV"/>
+		<Row Tag="LOC_CITIZEN_FELINE_MODERN_FEMALE_9" Language="en_US" Text="Whiskers IV"/>
+		<Row Tag="LOC_CITIZEN_FELINE_MODERN_FEMALE_10" Language="en_US" Text="Sally Soft Paws IV"/>
+
+		<Row Tag="LOC_CIVINFO_FELINE_LOCATION" Language="en_US" Text="Worldwide"/>
+		<Row Tag="LOC_CIVINFO_FELINE_SIZE" Language="en_US" Text="Very large!"/>
+		<Row Tag="LOC_CIVINFO_FELINE_POPULATION" Language="en_US" Text="Very high!"/>
+		<Row Tag="LOC_CIVINFO_FELINE_CAPITAL" Language="en_US" Text="{LOC_CITY_NAME_PAWTIMORE}"/>
+
+		<Row Tag="LOC_NAMED_MOUNTAIN_KITTY_MOUNTAINS_NAME" Language="en_US" Text="Kitty Mountains"/>
+		<Row Tag="LOC_NAMED_RIVER_FELINE_RIVER_NAME" Language="en_US" Text="Feline River"/>
+	</LocalizedText>
+</GameData>
